@@ -1,16 +1,7 @@
 # Cantonese for kids — content packs
 
-Public writing-practice content (`topics.json`, `strokes.json`, `manifest.json`) for the iOS app.
+Public writing-practice JSON only (`manifest.json`, `topics.json`, `strokes.json`).
 
-Served via jsDelivr:
+No API keys, app source, or user data are stored here.
 
-```text
-https://cdn.jsdelivr.net/gh/eamonnmoloney/Cantonese-for-kids-content@main/
-```
-
-Rebuild from the main app repo:
-
-```bash
-python3 Scripts/publish_content_pack.py --version N
-# then copy content/* into this repo and push
-```
+CDN: `https://cdn.jsdelivr.net/gh/eamonnmoloney/Cantonese-for-kids-content@main/`
