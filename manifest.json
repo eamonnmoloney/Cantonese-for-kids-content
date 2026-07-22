@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "topics": {
+    "path": "topics.json",
+    "sha256": "4b5f43bf7dcce43e27a6ef5ecb0b31937985553c1163e1c32f44de479671fced"
+  },
+  "strokes": {
+    "path": "strokes.json",
+    "sha256": "4d43b2ccbcd143c495ba7f0798cae178ba17be27addd95bd5c137357d62faf03"
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "topics": [
+    {
+      "id": "body",
+      "name": "Body",
+      "icon": "figure.stand",
+      "color": "pink",
+      "unlockCost": 0,
+      "characters": [
+        {
+          "id": "eye",
+          "character": "目",
+          "jyutping": "muk6",
+          "english": "eye"
+        },
+        {
+          "id": "face",
+          "character": "面",
+          "jyutping": "min6",
+          "english": "face"
+        },
+        {
+          "id": "person",
+          "character": "人",
+          "jyutping": "jan4",
+          "english": "person"
+        },
+        {
+          "id": "ear",
+          "character": "耳",
+          "jyutping": "ji5",
+          "english": "ear"
+        },
+        {
+          "id": "nose",
+          "character": "鼻",
+          "jyutping": "bei6",
+          "english": "nose"
+        },
+        {
+          "id": "mouth",
+          "character": "口",
+          "jyutping": "hau2",
+          "english": "mouth"
+        },
+        {
+          "id": "tongue",
+          "character": "舌",
+          "jyutping": "sit6",
+          "english": "tongue"
+        },
+        {
+          "id": "tooth",
+          "character": "牙",
+          "jyutping": "ngaa4",
+          "english": "tooth"
+        },
+        {
+          "id": "hand",
+          "character": "手",
+          "jyutping": "sau2",
+          "english": "hand"
+        },
+        {
+          "id": "laugh",
+          "character": "笑",
+          "jyutping": "siu3",
+          "english": "laugh"
+        },
+        {
+          "id": "foot",
+          "character": "足",
+          "jyutping": "zuk1",
+          "english": "foot"
+        },
+        {
+          "id": "cry",
+          "character": "哭",
+          "jyutping": "huk1",
+          "english": "cry"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "icon": "leaf.fill",
+      "color": "green",
+      "unlockCost": 75,
+      "characters": [
+        {
+          "id": "water",
+          "character": "水",
+          "jyutping": "seoi2",
+          "english": "water"
+        },
+        {
+          "id": "moon",
+          "character": "月",
+          "jyutping": "jyut6",
+          "english": "moon"
+        },
+        {
+          "id": "sun",
+          "character": "日",
+          "jyutping": "jat6",
+          "english": "sun"
+        },
+        {
+          "id": "stone",
+          "character": "石",
+          "jyutping": "sek6",
+          "english": "stone"
+        },
+        {
+          "id": "mountain",
+          "character": "山",
+          "jyutping": "saan1",
+          "english": "mountain"
+        },
+        {
+          "id": "fire",
+          "character": "火",
+          "jyutping": "fo2",
+          "english": "fire"
+        },
+        {
+          "id": "wood",
+          "character": "木",
+          "jyutping": "muk6",
+          "english": "wood"
+        },
+        {
+          "id": "field",
+          "character": "田",
+          "jyutping": "tin4",
+          "english": "field"
+        },
+        {
+          "id": "earth",
+          "character": "土",
+          "jyutping": "tou2",
+          "english": "earth"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "icon": "fork.knife",
+      "color": "orange",
+      "unlockCost": 50,
+      "characters": [
+        {
+          "id": "fruit",
+          "character": "果",
+          "jyutping": "gwo2",
+          "english": "fruit"
+        },
+        {
+          "id": "melon",
+          "character": "瓜",
+          "jyutping": "gwaa1",
+          "english": "melon"
+        },
+        {
+          "id": "rice",
+          "character": "米",
+          "jyutping": "mai5",
+          "english": "rice"
+        },
+        {
+          "id": "vegetable",
+          "character": "菜",
+          "jyutping": "coi3",
+          "english": "vegetable"
+        },
+        {
+          "id": "bean",
+          "character": "豆",
+          "jyutping": "dau6",
+          "english": "bean"
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "name": "Directions",
+      "icon": "arrow.up.and.down.and.arrow.left.and.right",
+      "color": "blue",
+      "unlockCost": 100,
+      "characters": [
+        {
+          "id": "up",
+          "character": "上",
+          "jyutping": "soeng6",
+          "english": "up"
+        },
+        {
+          "id": "down",
+          "character": "下",
+          "jyutping": "haa6",
+          "english": "down"
+        },
+        {
+          "id": "left",
+          "character": "左",
+          "jyutping": "zo2",
+          "english": "left"
+        },
+        {
+          "id": "right",
+          "character": "右",
+          "jyutping": "jau6",
+          "english": "right"
+        },
+        {
+          "id": "middle",
+          "character": "中",
+          "jyutping": "zung1",
+          "english": "middle"
+        },
+        {
+          "id": "front",
+          "character": "前",
+          "jyutping": "cin4",
+          "english": "front"
+        },
+        {
+          "id": "back",
+          "character": "後",
+          "jyutping": "hau6",
+          "english": "back"
+        },
+        {
+          "id": "out",
+          "character": "出",
+          "jyutping": "ceot1",
+          "english": "out"
+        },
+        {
+          "id": "in",
+          "character": "入",
+          "jyutping": "jap6",
+          "english": "in"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": "Size",
+      "icon": "arrow.up.left.and.arrow.down.right",
+      "color": "purple",
+      "unlockCost": 75,
+      "characters": [
+        {
+          "id": "big",
+          "character": "大",
+          "jyutping": "daai6",
+          "english": "big"
+        },
+        {
+          "id": "small",
+          "character": "小",
+          "jyutping": "siu2",
+          "english": "small"
+        },
+        {
+          "id": "many",
+          "character": "多",
+          "jyutping": "do1",
+          "english": "many"
+        },
+        {
+          "id": "few",
+          "character": "少",
+          "jyutping": "siu2",
+          "english": "few"
+        },
+        {
+          "id": "long",
+          "character": "長",
+          "jyutping": "coeng4",
+          "english": "long"
+        },
+        {
+          "id": "short",
+          "character": "短",
+          "jyutping": "dyun2",
+          "english": "short"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "name": "Actions",
+      "icon": "figure.walk",
+      "color": "teal",
+      "unlockCost": 50,
+      "characters": [
+        {
+          "id": "sit",
+          "character": "坐",
+          "jyutping": "co5",
+          "english": "sit"
+        },
+        {
+          "id": "stand",
+          "character": "站",
+          "jyutping": "zaam6",
+          "english": "stand"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "Numbers",
+      "icon": "number",
+      "color": "red",
+      "unlockCost": 0,
+      "characters": [
+        {
+          "id": "one",
+          "character": "一",
+          "jyutping": "jat1",
+          "english": "one"
+        },
+        {
+          "id": "two",
+          "character": "二",
+          "jyutping": "ji6",
+          "english": "two"
+        },
+        {
+          "id": "three",
+          "character": "三",
+          "jyutping": "saam1",
+          "english": "three"
+        },
+        {
+          "id": "four",
+          "character": "四",
+          "jyutping": "sei3",
+          "english": "four"
+        },
+        {
+          "id": "five",
+          "character": "五",
+          "jyutping": "ng5",
+          "english": "five"
+        },
+        {
+          "id": "six",
+          "character": "六",
+          "jyutping": "luk6",
+          "english": "six"
+        },
+        {
+          "id": "seven",
+          "character": "七",
+          "jyutping": "cat1",
+          "english": "seven"
+        },
+        {
+          "id": "eight",
+          "character": "八",
+          "jyutping": "baat3",
+          "english": "eight"
+        },
+        {
+          "id": "nine",
+          "character": "九",
+          "jyutping": "gau2",
+          "english": "nine"
+        },
+        {
+          "id": "ten",
+          "character": "十",
+          "jyutping": "sap6",
+          "english": "ten"
+        },
+        {
+          "id": "hundred",
+          "character": "百",
+          "jyutping": "baak3",
+          "english": "hundred"
+        },
+        {
+          "id": "thousand",
+          "character": "千",
+          "jyutping": "cin1",
+          "english": "thousand"
+        },
+        {
+          "id": "ten_thousand",
+          "character": "萬",
+          "jyutping": "maan6",
+          "english": "ten thousand"
+        }
+      ]
+    },
+    {
+      "id": "colors",
+      "name": "Colors",
+      "icon": "paintpalette.fill",
+      "color": "yellow",
+      "unlockCost": 100,
+      "characters": [
+        {
+          "id": "red",
+          "character": "紅",
+          "jyutping": "hung4",
+          "english": "red"
+        },
+        {
+          "id": "orange_color",
+          "character": "橙",
+          "jyutping": "caang2",
+          "english": "orange"
+        },
+        {
+          "id": "yellow_color",
+          "character": "黃",
+          "jyutping": "wong4",
+          "english": "yellow"
+        },
+        {
+          "id": "green_color",
+          "character": "綠",
+          "jyutping": "luk6",
+          "english": "green"
+        },
+        {
+          "id": "blue_color",
+          "character": "藍",
+          "jyutping": "laam4",
+          "english": "blue"
+        },
+        {
+          "id": "purple_color",
+          "character": "紫",
+          "jyutping": "zi2",
+          "english": "purple"
+        },
+        {
+          "id": "white",
+          "character": "白",
+          "jyutping": "baak6",
+          "english": "white"
+        },
+        {
+          "id": "black",
+          "character": "黑",
+          "jyutping": "hak1",
+          "english": "black"
+        }
+      ]
+    },
+    {
+      "id": "shapes",
+      "name": "Shapes",
+      "icon": "square.on.circle",
+      "color": "indigo",
+      "unlockCost": 150,
+      "characters": [
+        {
+          "id": "circle",
+          "character": "圓",
+          "jyutping": "jyun4",
+          "english": "circle"
+        },
+        {
+          "id": "square",
+          "character": "方",
+          "jyutping": "fong1",
+          "english": "square"
+        },
+        {
+          "id": "angle",
+          "character": "角",
+          "jyutping": "gok3",
+          "english": "angle/triangle"
+        },
+        {
+          "id": "line",
+          "character": "線",
+          "jyutping": "sin3",
+          "english": "line"
+        },
+        {
+          "id": "dot",
+          "character": "點",
+          "jyutping": "dim2",
+          "english": "dot"
+        },
+        {
+          "id": "heart",
+          "character": "心",
+          "jyutping": "sam1",
+          "english": "heart"
+        },
+        {
+          "id": "star",
+          "character": "星",
+          "jyutping": "sing1",
+          "english": "star"
+        },
+        {
+          "id": "cross",
+          "character": "叉",
+          "jyutping": "caa1",
+          "english": "cross"
+        },
+        {
+          "id": "rectangle",
+          "character": "矩",
+          "jyutping": "geoi2",
+          "english": "rectangle"
+        },
+        {
+          "id": "triangle",
+          "character": "三",
+          "jyutping": "saam1",
+          "english": "three (△)"
+        }
+      ]
+    }
+  ]
+}
