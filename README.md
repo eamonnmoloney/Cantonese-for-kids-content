@@ -1,6 +1,6 @@
 # Cantonese for kids — content packs
 
-Public writing-practice JSON only (`manifest.json`, `topics.json`, `strokes.json`).
+Public educational JSON (`manifest.json`, `topics.json`, `strokes.json`, `flashcards.json`).
 
 No API keys, app source, or user data are stored here.
 
