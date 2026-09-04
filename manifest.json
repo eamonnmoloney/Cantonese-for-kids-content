@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 7,
+  "contentVersion": 8,
   "topics": {
     "path": "topics.json",
     "sha256": "4b5f43bf7dcce43e27a6ef5ecb0b31937985553c1163e1c32f44de479671fced"
@@ -11,10 +11,10 @@
   },
   "flashcards": {
     "path": "flashcards.json",
-    "sha256": "8a37a8a3c8144ad86ec85451a43cdf60076f6ce9638b3a7e705b2d1eb718148a"
+    "sha256": "27d919ebb898d8e644cbba664cea45c642d912e0c4f7d5f01bccca92156296ca"
   },
   "flashcardApprovals": {
     "path": "flashcard_approvals.json",
-    "sha256": "b52f9ddb46a84e35663d6c9f1f4e581669b68305abf6e955f18e4461babf6b7e"
+    "sha256": "a58f1bfc455c8543268770f55c196cd19e3ba5ebfb8bb34fd04858ddfe414430"
   }
 }
