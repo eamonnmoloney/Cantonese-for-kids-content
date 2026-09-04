@@ -17731,5 +17731,18 @@
     "audio_file": "word_矩_geoi2.mp3",
     "sentence_audio": "",
     "difficulty": 1
+  },
+  {
+    "id": "adjectives_fung1",
+    "character": "風",
+    "meaning": "wind",
+    "jyutping": "fung1",
+    "category": "spoken",
+    "topic": "adjectives",
+    "example_sentence": "",
+    "example_translation": "",
+    "audio_file": "word_風_fung1.mp3",
+    "sentence_audio": "",
+    "difficulty": 1
   }
 ]
