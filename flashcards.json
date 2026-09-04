@@ -483,8 +483,8 @@
     "topic": "preschool_1",
     "example_sentence": "我冇呀。",
     "example_translation": "I don't have one.",
-    "audio_file": "sentence_我琴日冇返工_ngo5_kam4_jat6_mou5_faan1_gung1.mp3",
-    "sentence_audio": "",
+    "audio_file": null,
+    "sentence_audio": "sentence_我琴日冇返工_ngo5_kam4_jat6_mou5_faan1_gung1.mp3",
     "difficulty": 1,
     "path_level_id": "level_1_preschool_1",
     "path_lesson": 1
