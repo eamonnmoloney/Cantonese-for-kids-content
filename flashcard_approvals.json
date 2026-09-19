@@ -1452,12 +1452,12 @@
     "pack_fruit_lei5": "approved",
     "pack_fruit_hang6": "approved",
     "pack_fruit_ce1": "approved",
+    "pack_fruit_nap1": "approved",
     "pack_fruit_lau4": "approved",
     "pack_fruit_aa1": "approved",
     "pack_fruit_gyun2": "approved",
     "pack_fruit_ci2": "approved",
-    "pack_fruit_gam1": "approved",
-    "pack_fruit_sai1_gwaa1": "approved"
+    "pack_fruit_gam1": "approved"
   },
   "note": "Approved set = spoken curriculum CSV import only."
 }

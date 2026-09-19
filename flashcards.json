@@ -21162,15 +21162,15 @@
     "difficulty": 1
   },
   {
-    "id": "pack_fruit_sai1_gwaa1",
-    "character": "西瓜",
+    "id": "pack_fruit_nap1",
+    "character": "粒",
     "meaning": "watermelon",
-    "jyutping": "sai1 gwaa1",
+    "jyutping": "nap1",
     "category": "spoken",
     "topic": "pack_fruit",
     "example_sentence": "",
     "example_translation": "",
-    "audio_file": "word_西瓜_sai1_gwaa1.mp3",
+    "audio_file": "word_粒_nap1.mp3",
     "sentence_audio": "",
     "difficulty": 1
   },
