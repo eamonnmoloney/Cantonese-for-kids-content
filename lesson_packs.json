@@ -5,7 +5,7 @@
       "id": "pack_time",
       "title": "time",
       "subtitle": "",
-      "iconName": "square.stack.fill",
+      "iconName": "clock.fill",
       "lessons": [
         {
           "id": "lesson_1",
