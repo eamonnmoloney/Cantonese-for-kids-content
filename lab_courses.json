@@ -243,7 +243,7 @@
       "title": "Directions",
       "subtitle": "Ask where things are and describe positions using natural spoken Hong Kong Cantonese.",
       "iconName": "flask.fill",
-      "status": "draft",
+      "status": "published",
       "audience": "both",
       "units": [
         {
