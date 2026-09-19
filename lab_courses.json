@@ -22,7 +22,16 @@
           ]
         }
       ],
-      "sentences": []
+      "sentences": [
+        {
+          "id": "sent_mu8pk1bz",
+          "characters": "",
+          "jyutping": "",
+          "translation": "",
+          "audioFile": null,
+          "cardIds": []
+        }
+      ]
     }
   ]
 }
