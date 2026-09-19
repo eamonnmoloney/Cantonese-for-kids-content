@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 30,
+  "contentVersion": 31,
   "topics": {
     "path": "topics.json",
     "sha256": "4b5f43bf7dcce43e27a6ef5ecb0b31937985553c1163e1c32f44de479671fced"
   },
   "strokes": {
     "path": "strokes.json",
-    "sha256": "ce44033bd15a9dee6c39621dce8b1521df98f3d00933a79c4febe826e146ab42"
+    "sha256": "85a94f6919242e3f051498ca74ea16a86a2f738c9e72060c5a7367414b32eef3"
   },
   "flashcards": {
     "path": "flashcards.json",
-    "sha256": "71f959853e3b4c4679235a39e5601aa1c2999a10e406487b00bd27e456185c89"
+    "sha256": "a7de02dab5751af9fc644e5e22b96296f0100700c395e13280880aa9183fa714"
   },
   "flashcardApprovals": {
     "path": "flashcard_approvals.json",
-    "sha256": "4df685e2408edadf36c0982d400943ebb8029afa93d9340169759110b3927ff2"
+    "sha256": "e924e854c27f9327296847ef7f71ec940ecd2891768a9124e204cb0d033b22ed"
   },
   "lessonPacks": {
     "path": "lesson_packs.json",
-    "sha256": "dd2c49b6e5ad0794c6106c92fd283d5de026ff0b0d416e3ee427b6ae80953040"
+    "sha256": "9f9f533c61d6a739de7b86dad133b7ece611bb2b016f7d06591d44e67059b15d"
   },
   "labCourses": {
     "path": "lab_courses.json",
