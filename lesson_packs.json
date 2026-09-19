@@ -16,6 +16,19 @@
           ]
         }
       ]
+    },
+    {
+      "id": "pack_numbers",
+      "title": "Numbers",
+      "subtitle": "",
+      "iconName": "square.stack.fill",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "Lesson 1",
+          "cardIds": []
+        }
+      ]
     }
   ]
 }
