@@ -1,6 +1,6 @@
 {
   "requireApprovedOnly": true,
-  "updatedAt": "2026-09-19T16:43:27.403Z",
+  "updatedAt": "2026-09-19T16:43:34.610Z",
   "statuses": {
     "phase1_location_ni1_dou6": "pending",
     "phase1_location_go2_dou6": "pending",
@@ -121,8 +121,8 @@
     "phase1_numbers_sap6": "approved",
     "phase1_numbers_jaa6": "pending",
     "phase1_numbers_saa1": "pending",
-    "phase1_numbers_baak3": "pending",
-    "phase1_numbers_cin1": "pending",
+    "phase1_numbers_baak3": "approved",
+    "phase1_numbers_cin1": "approved",
     "phase1_numbers_maan6": "pending",
     "phase1_numbers_bun3": "pending",
     "phase1_numbers_go3": "approved",

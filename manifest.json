@@ -15,7 +15,7 @@
   },
   "flashcardApprovals": {
     "path": "flashcard_approvals.json",
-    "sha256": "de1d231167a533268c261c564432684f8cb3edb46f738681f7c4542f1d4246c9"
+    "sha256": "e3d253a18e0b3d361bef7823e0f830a78bf8ee1adfbe30b9155748055da091e5"
   },
   "lessonPacks": {
     "path": "lesson_packs.json",
