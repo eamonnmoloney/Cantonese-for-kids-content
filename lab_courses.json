@@ -321,7 +321,7 @@
                   "id": "step_10",
                   "type": "exercise",
                   "exercise": "word_bank",
-                  "cardId": null,
+                  "cardId": "phase1_location_bin1_dou6",
                   "sentenceId": "s1",
                   "prompt": "Build the Cantonese sentence from the word bank."
                 },
@@ -353,7 +353,7 @@
                   "id": "step_14",
                   "type": "exercise",
                   "exercise": "english_word_bank",
-                  "cardId": null,
+                  "cardId": "phase1_location_go2_dou6",
                   "sentenceId": "s2",
                   "prompt": "Build the English meaning of the Cantonese sentence."
                 }
@@ -421,7 +421,7 @@
                   "id": "step_23",
                   "type": "exercise",
                   "exercise": "word_bank",
-                  "cardId": null,
+                  "cardId": "phase1_location_soeng6_min6",
                   "sentenceId": "s3",
                   "prompt": "Build the Cantonese sentence from the word bank."
                 },
@@ -453,7 +453,7 @@
                   "id": "step_27",
                   "type": "exercise",
                   "exercise": "english_word_bank",
-                  "cardId": null,
+                  "cardId": "phase1_location_haa6_min6",
                   "sentenceId": "s4",
                   "prompt": "Build the English meaning of the Cantonese sentence."
                 },
@@ -536,7 +536,7 @@
                   "id": "step_37",
                   "type": "exercise",
                   "exercise": "word_bank",
-                  "cardId": null,
+                  "cardId": "phase1_location_zo2_bin1",
                   "sentenceId": "s5",
                   "prompt": "Build the Cantonese sentence from the word bank."
                 },
@@ -560,7 +560,7 @@
                   "id": "step_40",
                   "type": "exercise",
                   "exercise": "english_word_bank",
-                  "cardId": null,
+                  "cardId": "phase1_location_jau6_bin1",
                   "sentenceId": "s6",
                   "prompt": "Build the English meaning of the Cantonese sentence."
                 },
@@ -644,7 +644,7 @@
                   "id": "step_51",
                   "type": "exercise",
                   "exercise": "word_bank",
-                  "cardId": null,
+                  "cardId": "phase1_location_deoi3_min6",
                   "sentenceId": "s7",
                   "prompt": "Build the Cantonese sentence from the word bank."
                 },
@@ -660,7 +660,7 @@
                   "id": "step_53",
                   "type": "exercise",
                   "exercise": "english_word_bank",
-                  "cardId": null,
+                  "cardId": "phase1_location_gaak3_lei4",
                   "sentenceId": "s8",
                   "prompt": "Build the English meaning of the Cantonese sentence."
                 },
