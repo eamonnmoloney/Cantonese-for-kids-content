@@ -19,9 +19,11 @@
               "title": "Lesson 1",
               "steps": [
                 {
-                  "id": "step_1_k6n8",
-                  "type": "teach",
+                  "id": "step_1_kgo7",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
                   "cardId": "",
+                  "sentenceId": "",
                   "prompt": ""
                 }
               ]
