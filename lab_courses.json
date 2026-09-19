@@ -1,12 +1,208 @@
 {
   "schemaVersion": 1,
+  "note": "Lab experimental track — human-authored exercise scripts (not word packs).",
   "courses": [
+    {
+      "id": "lab_greetings_basics",
+      "title": "Greetings",
+      "subtitle": "Hello, thanks, and goodbye",
+      "iconName": "hand.wave.fill",
+      "status": "published",
+      "audience": "both",
+      "units": [
+        {
+          "id": "unit_hello",
+          "title": "Hello & goodbye",
+          "subtitle": "Everyday openings and closings",
+          "lessons": [
+            {
+              "id": "lesson_hello",
+              "title": "你好 & 早晨",
+              "steps": [
+                {
+                  "id": "s1",
+                  "type": "intro",
+                  "title": "Meeting people",
+                  "text": "In spoken Cantonese, 你好 (nei5 hou2) is the all-purpose hello. In the morning, people often say 早晨 (zou2 san4) instead."
+                },
+                {
+                  "id": "s2",
+                  "type": "teach",
+                  "cardId": "phase4_social_nei5_hou2",
+                  "prompt": "Learn this word"
+                },
+                {
+                  "id": "s3",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "phase4_social_nei5_hou2"
+                },
+                {
+                  "id": "s4",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase4_social_nei5_hou2"
+                },
+                {
+                  "id": "s5",
+                  "type": "teach",
+                  "cardId": "phase4_social_zou2_san4",
+                  "prompt": "Morning greeting"
+                },
+                {
+                  "id": "s6",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "phase4_social_zou2_san4"
+                },
+                {
+                  "id": "s7",
+                  "type": "sentence",
+                  "sentenceId": "sent_nei5_hou2_aa",
+                  "prompt": "A friendly hello"
+                },
+                {
+                  "id": "s8",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": "phase4_social_nei5_hou2",
+                  "sentenceId": "sent_nei5_hou2_aa"
+                },
+                {
+                  "id": "s9",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "phase4_social_zou2_san4",
+                  "sentenceId": "sent_zou2_san4"
+                }
+              ]
+            },
+            {
+              "id": "lesson_thanks_bye",
+              "title": "Thanks & bye",
+              "steps": [
+                {
+                  "id": "t1",
+                  "type": "intro",
+                  "title": "Polite closings",
+                  "text": "唔該 (m4 goi1) thanks someone for a favour or service. 多謝 (do1 ze6) is warmer — gifts, big favours, compliments. 拜拜 (baai1 baai3) is a casual bye."
+                },
+                {
+                  "id": "t2",
+                  "type": "teach",
+                  "cardId": "phase4_social_m4_goi1",
+                  "prompt": "Thanks for help"
+                },
+                {
+                  "id": "t3",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "phase4_social_m4_goi1"
+                },
+                {
+                  "id": "t4",
+                  "type": "teach",
+                  "cardId": "phase4_social_do1_ze6",
+                  "prompt": "Thanks for a gift"
+                },
+                {
+                  "id": "t5",
+                  "type": "exercise",
+                  "exercise": "jyutping_match",
+                  "cardId": "phase4_social_do1_ze6"
+                },
+                {
+                  "id": "t6",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase4_social_do1_ze6"
+                },
+                {
+                  "id": "t7",
+                  "type": "teach",
+                  "cardId": "phase4_social_baai1_baai3",
+                  "prompt": "Say goodbye"
+                },
+                {
+                  "id": "t8",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "phase4_social_baai1_baai3"
+                },
+                {
+                  "id": "t9",
+                  "type": "sentence",
+                  "sentenceId": "sent_m4_goi1",
+                  "prompt": "Thank someone"
+                },
+                {
+                  "id": "t10",
+                  "type": "exercise",
+                  "exercise": "english_word_bank",
+                  "cardId": "phase4_social_m4_goi1",
+                  "sentenceId": "sent_m4_goi1"
+                },
+                {
+                  "id": "t11",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": "phase4_social_baai1_baai3",
+                  "sentenceId": "sent_baai1_baai3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sent_nei5_hou2_aa",
+          "characters": "你好呀",
+          "jyutping": "nei5 hou2 aa3",
+          "translation": "Hello!",
+          "audioFile": null,
+          "cardIds": [
+            "phase4_social_nei5_hou2"
+          ]
+        },
+        {
+          "id": "sent_zou2_san4",
+          "characters": "早晨",
+          "jyutping": "zou2 san4",
+          "translation": "Good morning",
+          "audioFile": null,
+          "cardIds": [
+            "phase4_social_zou2_san4"
+          ]
+        },
+        {
+          "id": "sent_m4_goi1",
+          "characters": "唔該",
+          "jyutping": "m4 goi1",
+          "translation": "Thank you",
+          "audioFile": null,
+          "cardIds": [
+            "phase4_social_m4_goi1"
+          ]
+        },
+        {
+          "id": "sent_baai1_baai3",
+          "characters": "拜拜",
+          "jyutping": "baai1 baai3",
+          "translation": "Bye",
+          "audioFile": null,
+          "cardIds": [
+            "phase4_social_baai1_baai3"
+          ]
+        }
+      ]
+    },
     {
       "id": "lab_how_to_tell_the_time",
       "title": "How to tell the time",
       "subtitle": "",
       "iconName": "flask.fill",
-      "status": "draft",
+      "status": "published",
       "audience": "both",
       "units": [
         {
