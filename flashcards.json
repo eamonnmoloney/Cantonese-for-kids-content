@@ -21149,15 +21149,15 @@
     "difficulty": 1
   },
   {
-    "id": "pack_fruit_ce1",
-    "character": "檨",
+    "id": "pack_fruit_mong1_gwo2",
+    "character": "芒果",
     "meaning": "mango",
-    "jyutping": "ce1",
+    "jyutping": "mong1 gwo2",
     "category": "spoken",
     "topic": "pack_fruit",
     "example_sentence": "",
     "example_translation": "",
-    "audio_file": "word_檨_ce1.mp3",
+    "audio_file": "word_芒果_mong1_gwo2.mp3",
     "sentence_audio": "",
     "difficulty": 1
   },
