@@ -1,6 +1,6 @@
 {
   "requireApprovedOnly": true,
-  "updatedAt": "2026-09-19T16:43:34.610Z",
+  "updatedAt": "2026-09-19T16:54:11.696Z",
   "statuses": {
     "phase1_location_ni1_dou6": "pending",
     "phase1_location_go2_dou6": "pending",
@@ -81,7 +81,7 @@
     "phase1_nouns_so2_si4": "pending",
     "phase1_nouns_doi2": "pending",
     "phase1_nouns_ze1": "pending",
-    "phase1_nouns_biu1": "pending",
+    "phase1_nouns_biu1": "approved",
     "phase1_nouns_san1_fan2_zing3": "pending",
     "phase1_nouns_saan2_zi2": "pending",
     "phase1_nouns_zi2_gan1": "pending",
@@ -508,7 +508,7 @@
     "phase3_time_fan1_zung1": "pending",
     "phase3_time_zung1_tau4": "pending",
     "phase3_time_bun3": "pending",
-    "phase3_time_zi6": "pending",
+    "phase3_time_zi6": "approved",
     "phase3_time_ci4_di1": "pending",
     "phase3_time_dang2_zan6": "pending",
     "phase3_time_ni1_pai4": "pending",
