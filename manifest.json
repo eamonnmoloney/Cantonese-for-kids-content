@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 9,
+  "contentVersion": 11,
   "topics": {
     "path": "topics.json",
     "sha256": "4b5f43bf7dcce43e27a6ef5ecb0b31937985553c1163e1c32f44de479671fced"
@@ -11,10 +11,14 @@
   },
   "flashcards": {
     "path": "flashcards.json",
-    "sha256": "5ea462d770db8b9cd0a11ff0585f83d864002592475c5443ca1768cdcc744715"
+    "sha256": "71f959853e3b4c4679235a39e5601aa1c2999a10e406487b00bd27e456185c89"
   },
   "flashcardApprovals": {
     "path": "flashcard_approvals.json",
-    "sha256": "a58f1bfc455c8543268770f55c196cd19e3ba5ebfb8bb34fd04858ddfe414430"
+    "sha256": "0e1d3535b72c17ccfbc7f97f717280e9e3e1dc2755b5014b415bde72695be073"
+  },
+  "lessonPacks": {
+    "path": "lesson_packs.json",
+    "sha256": "f018f7b6c8037021fbbf99cb346750d487ded84f47ea5bb684d93e691e0502e0"
   }
 }

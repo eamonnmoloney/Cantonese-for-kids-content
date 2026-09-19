@@ -1,7 +1,6 @@
 {
   "requireApprovedOnly": true,
   "updatedAt": "2026-09-04T18:29:18Z",
-  "note": "Approved set = spoken curriculum CSV import only.",
   "statuses": {
     "phase1_location_ni1_dou6": "pending",
     "phase1_location_go2_dou6": "pending",
@@ -1447,5 +1446,6 @@
     "curriculum_particles_and_grammar_zau6": "approved",
     "curriculum_particles_and_grammar_mai6": "approved",
     "curriculum_particles_and_grammar_haa5": "approved"
-  }
+  },
+  "note": "Approved set = spoken curriculum CSV import only."
 }
