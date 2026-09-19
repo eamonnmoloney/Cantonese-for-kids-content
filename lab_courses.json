@@ -237,6 +237,564 @@
         }
       ],
       "sentences": []
+    },
+    {
+      "id": "lab_directions",
+      "title": "Directions",
+      "subtitle": "Ask where things are and describe positions using natural spoken Hong Kong Cantonese.",
+      "iconName": "flask.fill",
+      "status": "draft",
+      "audience": "both",
+      "units": [
+        {
+          "id": "unit_1",
+          "title": "Finding Places",
+          "subtitle": "Ask where something is and locate it relative to familiar objects.",
+          "lessons": [
+            {
+              "id": "lesson_1_1",
+              "title": "Here, There, Where",
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "Find the place",
+                  "text": "Learn to ask where something is and point out here and there."
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "phase1_location_ni1_dou6",
+                  "prompt": "Learn the word for 'here'."
+                },
+                {
+                  "id": "step_3",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "phase1_location_ni1_dou6",
+                  "sentenceId": null,
+                  "prompt": "Choose the meaning of the target word."
+                },
+                {
+                  "id": "step_4",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase1_location_ni1_dou6",
+                  "sentenceId": null,
+                  "prompt": "Listen and choose the meaning."
+                },
+                {
+                  "id": "step_5",
+                  "type": "teach",
+                  "cardId": "phase1_location_go2_dou6",
+                  "prompt": "Learn the word for 'there'."
+                },
+                {
+                  "id": "step_6",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "phase1_location_go2_dou6",
+                  "sentenceId": null,
+                  "prompt": "Choose the Cantonese word for 'there'."
+                },
+                {
+                  "id": "step_7",
+                  "type": "teach",
+                  "cardId": "phase1_location_bin1_dou6",
+                  "prompt": "Learn the word for 'where'."
+                },
+                {
+                  "id": "step_8",
+                  "type": "exercise",
+                  "exercise": "jyutping_match",
+                  "cardId": "phase1_location_bin1_dou6",
+                  "sentenceId": null,
+                  "prompt": "Match the target word to its Jyutping."
+                },
+                {
+                  "id": "step_9",
+                  "type": "sentence",
+                  "sentenceId": "s1",
+                  "prompt": "Learn a natural way to ask where the toilet is."
+                },
+                {
+                  "id": "step_10",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": null,
+                  "sentenceId": "s1",
+                  "prompt": "Build the Cantonese sentence from the word bank."
+                },
+                {
+                  "id": "step_11",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "phase1_location_bin1_dou6",
+                  "sentenceId": "s1",
+                  "prompt": "Fill in the missing location word."
+                },
+                {
+                  "id": "step_12",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "phase1_location_ci3_so2",
+                  "sentenceId": null,
+                  "prompt": "Choose the meaning of the place word."
+                },
+                {
+                  "id": "step_13",
+                  "type": "exercise",
+                  "exercise": "type_meaning",
+                  "cardId": "phase1_location_hai2",
+                  "sentenceId": null,
+                  "prompt": "Type the English location meaning of the target word."
+                },
+                {
+                  "id": "step_14",
+                  "type": "exercise",
+                  "exercise": "english_word_bank",
+                  "cardId": null,
+                  "sentenceId": "s2",
+                  "prompt": "Build the English meaning of the Cantonese sentence."
+                }
+              ]
+            },
+            {
+              "id": "lesson_1_2",
+              "title": "Above and Below",
+              "steps": [
+                {
+                  "id": "step_15",
+                  "type": "intro",
+                  "title": "Place objects",
+                  "text": "Describe where everyday objects are using on top and underneath."
+                },
+                {
+                  "id": "step_16",
+                  "type": "teach",
+                  "cardId": "phase1_location_soeng6_min6",
+                  "prompt": "Learn the word for 'above' or 'on top'."
+                },
+                {
+                  "id": "step_17",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "phase1_location_soeng6_min6",
+                  "sentenceId": null,
+                  "prompt": "Choose the meaning of the target position word."
+                },
+                {
+                  "id": "step_18",
+                  "type": "teach",
+                  "cardId": "phase1_location_haa6_min6",
+                  "prompt": "Learn the word for 'below' or 'underneath'."
+                },
+                {
+                  "id": "step_19",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase1_location_haa6_min6",
+                  "sentenceId": null,
+                  "prompt": "Listen and choose the position being described."
+                },
+                {
+                  "id": "step_20",
+                  "type": "teach",
+                  "cardId": "phase1_location_hai2",
+                  "prompt": "Learn the common spoken location word meaning 'at', 'in', or 'on'."
+                },
+                {
+                  "id": "step_21",
+                  "type": "exercise",
+                  "exercise": "jyutping_match",
+                  "cardId": "phase1_location_hai2",
+                  "sentenceId": null,
+                  "prompt": "Match the location word to its Jyutping."
+                },
+                {
+                  "id": "step_22",
+                  "type": "sentence",
+                  "sentenceId": "s3",
+                  "prompt": "Learn how to say that a book is on the table."
+                },
+                {
+                  "id": "step_23",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": null,
+                  "sentenceId": "s3",
+                  "prompt": "Build the Cantonese sentence from the word bank."
+                },
+                {
+                  "id": "step_24",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "phase1_location_soeng6_min6",
+                  "sentenceId": "s3",
+                  "prompt": "Fill in the missing position word."
+                },
+                {
+                  "id": "step_25",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "phase1_nouns_syu1",
+                  "sentenceId": null,
+                  "prompt": "Choose the Cantonese character for 'book'."
+                },
+                {
+                  "id": "step_26",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "phase1_nouns_toi2",
+                  "sentenceId": null,
+                  "prompt": "Choose the meaning of the object word."
+                },
+                {
+                  "id": "step_27",
+                  "type": "exercise",
+                  "exercise": "english_word_bank",
+                  "cardId": null,
+                  "sentenceId": "s4",
+                  "prompt": "Build the English meaning of the Cantonese sentence."
+                },
+                {
+                  "id": "step_28",
+                  "type": "exercise",
+                  "exercise": "type_character",
+                  "cardId": "phase1_nouns_cong4",
+                  "sentenceId": null,
+                  "prompt": "Type the Cantonese character for 'bed'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_2",
+          "title": "Relative Directions",
+          "subtitle": "Use left, right, front, behind, opposite, nearby, and next to.",
+          "lessons": [
+            {
+              "id": "lesson_2_1",
+              "title": "Left and Right",
+              "steps": [
+                {
+                  "id": "step_29",
+                  "type": "intro",
+                  "title": "Pick a side",
+                  "text": "Use left and right, then extend the pattern to front and behind."
+                },
+                {
+                  "id": "step_30",
+                  "type": "teach",
+                  "cardId": "phase1_location_zo2_bin1",
+                  "prompt": "Learn the phrase for 'left side'."
+                },
+                {
+                  "id": "step_31",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "phase1_location_zo2_bin1",
+                  "sentenceId": null,
+                  "prompt": "Choose the Cantonese phrase for 'left side'."
+                },
+                {
+                  "id": "step_32",
+                  "type": "teach",
+                  "cardId": "phase1_location_jau6_bin1",
+                  "prompt": "Learn the phrase for 'right side'."
+                },
+                {
+                  "id": "step_33",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase1_location_jau6_bin1",
+                  "sentenceId": null,
+                  "prompt": "Listen and choose the side you hear."
+                },
+                {
+                  "id": "step_34",
+                  "type": "teach",
+                  "cardId": "phase1_location_cin4_min6",
+                  "prompt": "Learn the phrase for 'in front'."
+                },
+                {
+                  "id": "step_35",
+                  "type": "exercise",
+                  "exercise": "jyutping_match",
+                  "cardId": "phase1_location_cin4_min6",
+                  "sentenceId": null,
+                  "prompt": "Match the position phrase to its Jyutping."
+                },
+                {
+                  "id": "step_36",
+                  "type": "sentence",
+                  "sentenceId": "s5",
+                  "prompt": "Learn how to say that the toilet is on the left."
+                },
+                {
+                  "id": "step_37",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": null,
+                  "sentenceId": "s5",
+                  "prompt": "Build the Cantonese sentence from the word bank."
+                },
+                {
+                  "id": "step_38",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "phase1_location_zo2_bin1",
+                  "sentenceId": "s5",
+                  "prompt": "Fill in the missing side."
+                },
+                {
+                  "id": "step_39",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "phase1_location_hau6_min6",
+                  "sentenceId": null,
+                  "prompt": "Choose the meaning of the target position word."
+                },
+                {
+                  "id": "step_40",
+                  "type": "exercise",
+                  "exercise": "english_word_bank",
+                  "cardId": null,
+                  "sentenceId": "s6",
+                  "prompt": "Build the English meaning of the Cantonese sentence."
+                },
+                {
+                  "id": "step_41",
+                  "type": "exercise",
+                  "exercise": "type_meaning",
+                  "cardId": "phase1_nouns_mun4",
+                  "sentenceId": null,
+                  "prompt": "Type the English meaning of the target noun."
+                },
+                {
+                  "id": "step_42",
+                  "type": "exercise",
+                  "exercise": "tone_identification",
+                  "cardId": "phase1_location_jau6_bin1",
+                  "sentenceId": null,
+                  "prompt": "Identify the tone number of the first syllable."
+                }
+              ]
+            },
+            {
+              "id": "lesson_2_2",
+              "title": "Near, Opposite, Next To",
+              "steps": [
+                {
+                  "id": "step_43",
+                  "type": "intro",
+                  "title": "Describe nearby places",
+                  "text": "Combine common place words with opposite, next to, nearby, inside, outside, and middle."
+                },
+                {
+                  "id": "step_44",
+                  "type": "teach",
+                  "cardId": "phase1_location_deoi3_min6",
+                  "prompt": "Learn the phrase for 'opposite' or 'across from'."
+                },
+                {
+                  "id": "step_45",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "phase1_location_deoi3_min6",
+                  "sentenceId": null,
+                  "prompt": "Choose the meaning of the target position phrase."
+                },
+                {
+                  "id": "step_46",
+                  "type": "teach",
+                  "cardId": "phase1_location_gaak3_lei4",
+                  "prompt": "Learn the natural spoken phrase for 'next to'."
+                },
+                {
+                  "id": "step_47",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase1_location_gaak3_lei4",
+                  "sentenceId": null,
+                  "prompt": "Listen and choose the matching relationship."
+                },
+                {
+                  "id": "step_48",
+                  "type": "teach",
+                  "cardId": "phase1_location_fu6_gan6",
+                  "prompt": "Learn the word for 'nearby'."
+                },
+                {
+                  "id": "step_49",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase1_location_fu6_gan6",
+                  "sentenceId": null,
+                  "prompt": "Listen and choose the meaning."
+                },
+                {
+                  "id": "step_50",
+                  "type": "sentence",
+                  "sentenceId": "s7",
+                  "prompt": "Learn how to say that the office is opposite home."
+                },
+                {
+                  "id": "step_51",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": null,
+                  "sentenceId": "s7",
+                  "prompt": "Build the Cantonese sentence from the word bank."
+                },
+                {
+                  "id": "step_52",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "phase1_location_deoi3_min6",
+                  "sentenceId": "s7",
+                  "prompt": "Fill in the missing relationship word."
+                },
+                {
+                  "id": "step_53",
+                  "type": "exercise",
+                  "exercise": "english_word_bank",
+                  "cardId": null,
+                  "sentenceId": "s8",
+                  "prompt": "Build the English meaning of the Cantonese sentence."
+                },
+                {
+                  "id": "step_54",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "phase1_location_jap6_min6",
+                  "sentenceId": null,
+                  "prompt": "Choose the Cantonese word for 'inside'."
+                },
+                {
+                  "id": "step_55",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "phase1_location_ceot1_min6",
+                  "sentenceId": null,
+                  "prompt": "Choose the meaning of the target position word."
+                },
+                {
+                  "id": "step_56",
+                  "type": "exercise",
+                  "exercise": "type_meaning",
+                  "cardId": "phase1_location_zung1_gaan1",
+                  "sentenceId": null,
+                  "prompt": "Type the English meaning of the target position word."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "s1",
+          "characters": "廁所喺邊度呀？",
+          "jyutping": "ci3 so2 hai2 bin1 dou6 aa3?",
+          "translation": "Where is the toilet?",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_location_ci3_so2",
+            "phase1_location_hai2",
+            "phase1_location_bin1_dou6"
+          ]
+        },
+        {
+          "id": "s2",
+          "characters": "廁所喺嗰度。",
+          "jyutping": "ci3 so2 hai2 go2 dou6.",
+          "translation": "The toilet is over there.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_location_ci3_so2",
+            "phase1_location_hai2",
+            "phase1_location_go2_dou6"
+          ]
+        },
+        {
+          "id": "s3",
+          "characters": "書喺枱上面。",
+          "jyutping": "syu1 hai2 toi2 soeng6 min6.",
+          "translation": "The book is on the table.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_nouns_syu1",
+            "phase1_location_hai2",
+            "phase1_nouns_toi2",
+            "phase1_location_soeng6_min6"
+          ]
+        },
+        {
+          "id": "s4",
+          "characters": "鞋喺床下面。",
+          "jyutping": "haai4 hai2 cong4 haa6 min6.",
+          "translation": "The shoes are under the bed.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_nouns_haai4",
+            "phase1_location_hai2",
+            "phase1_nouns_cong4",
+            "phase1_location_haa6_min6"
+          ]
+        },
+        {
+          "id": "s5",
+          "characters": "廁所喺左邊。",
+          "jyutping": "ci3 so2 hai2 zo2 bin1.",
+          "translation": "The toilet is on the left.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_location_ci3_so2",
+            "phase1_location_hai2",
+            "phase1_location_zo2_bin1"
+          ]
+        },
+        {
+          "id": "s6",
+          "characters": "門喺右邊。",
+          "jyutping": "mun4 hai2 jau6 bin1.",
+          "translation": "The door is on the right.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_nouns_mun4",
+            "phase1_location_hai2",
+            "phase1_location_jau6_bin1"
+          ]
+        },
+        {
+          "id": "s7",
+          "characters": "公司喺屋企對面。",
+          "jyutping": "gung1 si1 hai2 uk1 kei2 deoi3 min6.",
+          "translation": "The office is opposite home.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_location_gung1_si1",
+            "phase1_location_hai2",
+            "phase1_location_uk1_kei2",
+            "phase1_location_deoi3_min6"
+          ]
+        },
+        {
+          "id": "s8",
+          "characters": "廁所喺公司隔籬。",
+          "jyutping": "ci3 so2 hai2 gung1 si1 gaak3 lei4.",
+          "translation": "The toilet is next to the office.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_location_ci3_so2",
+            "phase1_location_hai2",
+            "phase1_location_gung1_si1",
+            "phase1_location_gaak3_lei4"
+          ]
+        }
+      ]
     }
   ]
 }
