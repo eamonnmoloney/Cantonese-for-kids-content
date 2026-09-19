@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 31,
+  "contentVersion": 32,
   "topics": {
     "path": "topics.json",
     "sha256": "4b5f43bf7dcce43e27a6ef5ecb0b31937985553c1163e1c32f44de479671fced"
@@ -11,7 +11,7 @@
   },
   "flashcards": {
     "path": "flashcards.json",
-    "sha256": "a7de02dab5751af9fc644e5e22b96296f0100700c395e13280880aa9183fa714"
+    "sha256": "967d632c442b4376a1b62f314b14274057c925b9734e29f67f5b69d9b6bc2481"
   },
   "flashcardApprovals": {
     "path": "flashcard_approvals.json",

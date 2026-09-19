@@ -21090,11 +21090,11 @@
     "jyutping": "jau2",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_柚_jau2.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_jing1",
@@ -21103,11 +21103,11 @@
     "jyutping": "jing1",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_櫻_jing1.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_tou4",
@@ -21116,11 +21116,11 @@
     "jyutping": "tou4",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_桃_tou4.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_lei5",
@@ -21129,11 +21129,11 @@
     "jyutping": "lei5",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_李_lei5.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_hang6",
@@ -21142,11 +21142,11 @@
     "jyutping": "hang6",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_杏_hang6.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_ce1",
@@ -21155,11 +21155,11 @@
     "jyutping": "ce1",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_檨_ce1.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_nap1",
@@ -21168,11 +21168,11 @@
     "jyutping": "nap1",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_粒_nap1.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_lau4",
@@ -21181,11 +21181,11 @@
     "jyutping": "lau4",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_榴_lau4.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_aa1",
@@ -21194,11 +21194,11 @@
     "jyutping": "aa1",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_枒_aa1.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_gyun2",
@@ -21207,11 +21207,11 @@
     "jyutping": "gyun2",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_卷_gyun2.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_ci2",
@@ -21220,11 +21220,11 @@
     "jyutping": "ci2",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_柿_ci2.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   },
   {
     "id": "pack_fruit_gam1",
@@ -21233,10 +21233,10 @@
     "jyutping": "gam1",
     "category": "spoken",
     "topic": "pack_fruit",
-    "difficulty": 1,
     "example_sentence": "",
     "example_translation": "",
     "audio_file": "word_柑_gam1.mp3",
-    "sentence_audio": ""
+    "sentence_audio": "",
+    "difficulty": 1
   }
 ]
