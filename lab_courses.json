@@ -35,13 +35,15 @@
                   "id": "s3",
                   "type": "exercise",
                   "exercise": "character_to_meaning",
-                  "cardId": "phase4_social_nei5_hou2"
+                  "cardId": "phase4_social_nei5_hou2",
+                  "prompt": ""
                 },
                 {
                   "id": "s4",
                   "type": "exercise",
                   "exercise": "listening_to_meaning",
-                  "cardId": "phase4_social_nei5_hou2"
+                  "cardId": "phase4_social_nei5_hou2",
+                  "prompt": ""
                 },
                 {
                   "id": "s5",
@@ -53,7 +55,8 @@
                   "id": "s6",
                   "type": "exercise",
                   "exercise": "meaning_to_character",
-                  "cardId": "phase4_social_zou2_san4"
+                  "cardId": "phase4_social_zou2_san4",
+                  "prompt": ""
                 },
                 {
                   "id": "s7",
@@ -66,14 +69,16 @@
                   "type": "exercise",
                   "exercise": "word_bank",
                   "cardId": "phase4_social_nei5_hou2",
-                  "sentenceId": "sent_nei5_hou2_aa"
+                  "sentenceId": "sent_nei5_hou2_aa",
+                  "prompt": ""
                 },
                 {
                   "id": "s9",
                   "type": "exercise",
                   "exercise": "sentence_fill_in",
                   "cardId": "phase4_social_zou2_san4",
-                  "sentenceId": "sent_zou2_san4"
+                  "sentenceId": "sent_zou2_san4",
+                  "prompt": ""
                 }
               ]
             },
@@ -97,7 +102,8 @@
                   "id": "t3",
                   "type": "exercise",
                   "exercise": "character_to_meaning",
-                  "cardId": "phase4_social_m4_goi1"
+                  "cardId": "phase4_social_m4_goi1",
+                  "prompt": ""
                 },
                 {
                   "id": "t4",
@@ -109,13 +115,15 @@
                   "id": "t5",
                   "type": "exercise",
                   "exercise": "jyutping_match",
-                  "cardId": "phase4_social_do1_ze6"
+                  "cardId": "phase4_social_do1_ze6",
+                  "prompt": ""
                 },
                 {
                   "id": "t6",
                   "type": "exercise",
                   "exercise": "listening_to_meaning",
-                  "cardId": "phase4_social_do1_ze6"
+                  "cardId": "phase4_social_do1_ze6",
+                  "prompt": ""
                 },
                 {
                   "id": "t7",
@@ -127,7 +135,8 @@
                   "id": "t8",
                   "type": "exercise",
                   "exercise": "meaning_to_character",
-                  "cardId": "phase4_social_baai1_baai3"
+                  "cardId": "phase4_social_baai1_baai3",
+                  "prompt": ""
                 },
                 {
                   "id": "t9",
@@ -140,14 +149,16 @@
                   "type": "exercise",
                   "exercise": "english_word_bank",
                   "cardId": "phase4_social_m4_goi1",
-                  "sentenceId": "sent_m4_goi1"
+                  "sentenceId": "sent_m4_goi1",
+                  "prompt": ""
                 },
                 {
                   "id": "t11",
                   "type": "exercise",
                   "exercise": "word_bank",
                   "cardId": "phase4_social_baai1_baai3",
-                  "sentenceId": "sent_baai1_baai3"
+                  "sentenceId": "sent_baai1_baai3",
+                  "prompt": ""
                 }
               ]
             }
