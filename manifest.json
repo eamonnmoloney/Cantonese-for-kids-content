@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 12,
+  "contentVersion": 13,
   "topics": {
     "path": "topics.json",
     "sha256": "4b5f43bf7dcce43e27a6ef5ecb0b31937985553c1163e1c32f44de479671fced"
@@ -19,6 +19,6 @@
   },
   "lessonPacks": {
     "path": "lesson_packs.json",
-    "sha256": "c1f5f53077b95734a15a14e51e63acbba20aba81fcbdce907b5475986ea7c68f"
+    "sha256": "a6f53acf524038953e677f908e4c3b8d717bbf46bb9499dc7632c98d2d9cf098"
   }
 }
