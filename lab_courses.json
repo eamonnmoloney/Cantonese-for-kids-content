@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "courses": [
+    {
+      "id": "lab_how_to_tell_the_time",
+      "title": "How to tell the time",
+      "subtitle": "",
+      "iconName": "flask.fill",
+      "status": "draft",
+      "audience": "both",
+      "units": [
+        {
+          "id": "unit_1",
+          "title": "Unit 1",
+          "subtitle": "",
+          "lessons": [
+            {
+              "id": "lesson_1",
+              "title": "Lesson 1",
+              "steps": []
+            }
+          ]
+        }
+      ],
+      "sentences": []
+    }
+  ]
+}
