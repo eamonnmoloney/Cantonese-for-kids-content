@@ -26,7 +26,18 @@
         {
           "id": "lesson_1",
           "title": "Lesson 1",
-          "cardIds": []
+          "cardIds": [
+            "phase1_numbers_jat1",
+            "phase1_numbers_ji6",
+            "phase1_numbers_saam1",
+            "phase1_numbers_sei3",
+            "phase1_numbers_ng5",
+            "phase1_numbers_luk6",
+            "phase1_numbers_cat1",
+            "phase1_numbers_baat3",
+            "phase1_numbers_gau2",
+            "phase1_numbers_sap6"
+          ]
         }
       ]
     }
