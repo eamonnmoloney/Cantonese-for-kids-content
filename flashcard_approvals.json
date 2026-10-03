@@ -1,6 +1,6 @@
 {
   "requireApprovedOnly": true,
-  "updatedAt": "2026-10-03T10:18:49.604Z",
+  "updatedAt": "2026-10-03T10:19:13.621Z",
   "statuses": {
     "phase1_location_ni1_dou6": "pending",
     "phase1_location_go2_dou6": "pending",
@@ -384,7 +384,7 @@
     "phase3_adjectives_mong4": "pending",
     "phase3_adjectives_dak1_haan4": "pending",
     "phase3_adjectives_hoi1_sam1": "pending",
-    "phase3_adjectives_leng3": "pending",
+    "phase3_adjectives_leng3": "approved",
     "phase3_adjectives_ngaam1": "pending",
     "phase3_adjectives_co3": "approved",
     "phase3_adjectives_baau2": "pending",
