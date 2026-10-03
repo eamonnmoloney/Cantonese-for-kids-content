@@ -1,6 +1,6 @@
 {
   "requireApprovedOnly": true,
-  "updatedAt": "2026-10-03T14:46:59.000Z",
+  "updatedAt": "2026-10-03T14:53:48.000Z",
   "statuses": {
     "phase1_location_ni1_dou6": "pending",
     "phase1_location_go2_dou6": "pending",
@@ -1612,7 +1612,7 @@
     "exp_core_399_m4_sai2_gong2": "approved",
     "exp_core_400_jat1_hau2_hei3": "approved",
     "exp_core_405_loi4_jyun4": "approved",
-    "exp_core_406_seon3_kaau3": "pending",
+    "exp_core_406_seon3_kaau3": "approved",
     "exp_core_407_pin1_gin3": "approved",
     "exp_core_409_kei4_mong6": "approved",
     "exp_core_411_zeon2_kok3": "approved",
@@ -3650,7 +3650,7 @@
     "exp_path_c1_11_p05": "approved",
     "exp_path_c1_12_p01": "approved",
     "exp_path_c1_12_p02": "approved",
-    "exp_path_c1_12_p03": "pending",
+    "exp_path_c1_12_p03": "approved",
     "exp_path_c1_12_p04": "approved",
     "exp_path_c1_12_p05": "approved",
     "exp_path_c1_13_p01": "approved",
