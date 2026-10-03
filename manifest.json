@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 52,
+  "contentVersion": 53,
   "topics": {
     "path": "topics.json",
     "sha256": "4b5f43bf7dcce43e27a6ef5ecb0b31937985553c1163e1c32f44de479671fced"
   },
   "strokes": {
     "path": "strokes.json",
-    "sha256": "85a94f6919242e3f051498ca74ea16a86a2f738c9e72060c5a7367414b32eef3"
+    "sha256": "cc449c31e18fa20d9d8ca5b408c21b9c2fc4f354c1d0aa2a4b09db5af1c4faa5"
   },
   "flashcards": {
     "path": "flashcards.json",
