@@ -2303,7 +2303,6 @@
               ],
               "mapNodeIds": [
                 "b_where",
-                "d_bindou",
                 "d_nidou",
                 "d_godou",
                 "d_hai",
@@ -2652,11 +2651,9 @@
               ],
               "mapNodeIds": [
                 "b_near",
-                "b_box",
                 "d_in",
                 "d_out",
                 "d_beside",
-                "d_nearby",
                 "d_opposite",
                 "d_middle"
               ]
@@ -2816,15 +2813,13 @@
             "id": "b_where",
             "kind": "branch",
             "parentId": "d_me",
+            "cardId": "phase1_location_bin1_dou6",
             "label": "Where?",
-            "characters": "邊度",
-            "jyutping": "bin1 dou6",
             "english": "where?",
             "emoji": "❓",
             "color": "blue",
-            "x": -430,
-            "y": -330,
-            "layout": "grid"
+            "x": -250,
+            "y": -350
           },
           {
             "id": "d_where_q",
@@ -2832,32 +2827,30 @@
             "parentId": "b_where",
             "characters": "喺邊度呀？",
             "jyutping": "hai2 bin1 dou6 aa3?",
-            "english": "Where is it?"
-          },
-          {
-            "id": "d_bindou",
-            "kind": "word",
-            "parentId": "b_where",
-            "cardId": "phase1_location_bin1_dou6"
+            "english": "Where is it?",
+            "direction": "n"
           },
           {
             "id": "d_nidou",
             "kind": "word",
             "parentId": "b_where",
-            "cardId": "phase1_location_ni1_dou6"
+            "cardId": "phase1_location_ni1_dou6",
+            "direction": "w"
           },
           {
             "id": "d_godou",
             "kind": "word",
             "parentId": "b_where",
-            "cardId": "phase1_location_go2_dou6"
+            "cardId": "phase1_location_go2_dou6",
+            "direction": "e"
           },
           {
             "id": "d_hai",
             "kind": "word",
             "parentId": "b_where",
             "cardId": "phase1_location_hai2",
-            "english": "at / in / on"
+            "english": "at / in / on",
+            "direction": "s"
           },
           {
             "id": "b_box",
@@ -2869,8 +2862,8 @@
             "english": "table (things around it)",
             "emoji": "📦",
             "color": "green",
-            "x": 430,
-            "y": -330
+            "x": 250,
+            "y": -350
           },
           {
             "id": "d_up",
@@ -2904,42 +2897,36 @@
             "id": "b_near",
             "kind": "branch",
             "parentId": "d_me",
+            "cardId": "phase1_location_fu6_gan6",
             "label": "Near & far",
-            "characters": "附近",
-            "jyutping": "fu6 gan6",
-            "english": "nearby",
             "emoji": "🏘️",
             "color": "purple",
-            "x": 430,
-            "y": 340,
-            "layout": "grid"
-          },
-          {
-            "id": "d_beside",
-            "kind": "word",
-            "parentId": "b_near",
-            "cardId": "phase1_location_gaak3_lei4",
-            "english": "next to"
-          },
-          {
-            "id": "d_nearby",
-            "kind": "word",
-            "parentId": "b_near",
-            "cardId": "phase1_location_fu6_gan6"
-          },
-          {
-            "id": "d_opposite",
-            "kind": "word",
-            "parentId": "b_near",
-            "cardId": "phase1_location_deoi3_min6",
-            "english": "opposite"
+            "x": 250,
+            "y": 350
           },
           {
             "id": "d_middle",
             "kind": "word",
             "parentId": "b_near",
             "cardId": "phase1_location_zung1_gaan1",
-            "english": "in the middle"
+            "english": "in the middle",
+            "direction": "n"
+          },
+          {
+            "id": "d_beside",
+            "kind": "word",
+            "parentId": "b_near",
+            "cardId": "phase1_location_gaak3_lei4",
+            "english": "next to",
+            "direction": "w"
+          },
+          {
+            "id": "d_opposite",
+            "kind": "word",
+            "parentId": "b_near",
+            "cardId": "phase1_location_deoi3_min6",
+            "english": "opposite / across",
+            "direction": "e"
           },
           {
             "id": "b_move",
@@ -2949,8 +2936,8 @@
             "label": "Moving",
             "emoji": "🚶",
             "color": "pink",
-            "x": -430,
-            "y": 340
+            "x": -250,
+            "y": 350
           },
           {
             "id": "d_straight",
@@ -2985,16 +2972,6 @@
         ],
         "edges": [
           {
-            "from": "d_front",
-            "to": "d_back",
-            "kind": "opposite"
-          },
-          {
-            "from": "d_left",
-            "to": "d_right",
-            "kind": "opposite"
-          },
-          {
             "from": "d_up",
             "to": "d_down",
             "kind": "opposite"
@@ -3015,7 +2992,7 @@
             "id": "c_where",
             "parts": [
               "d_hai",
-              "d_bindou"
+              "b_where"
             ],
             "result": "d_where_q",
             "label": "喺 + 邊度 → 喺邊度呀？"
