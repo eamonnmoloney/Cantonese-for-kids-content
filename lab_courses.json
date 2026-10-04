@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "note": "Lab experimental track — human-authored exercise scripts (not word packs).",
+  "note": "Lab experimental track — human-authored exercise scripts (not word packs). Each course may carry a mindMap (nodes/edges/combines); lessons link to map nodes via mapNodeIds.",
   "courses": [
     {
       "id": "lab_greetings_basics",
@@ -80,6 +80,11 @@
                   "sentenceId": "sent_zou2_san4",
                   "prompt": ""
                 }
+              ],
+              "mapNodeIds": [
+                "b_hello",
+                "g_neihou",
+                "g_zousan"
               ]
             },
             {
@@ -160,6 +165,12 @@
                   "sentenceId": "sent_baai1_baai3",
                   "prompt": ""
                 }
+              ],
+              "mapNodeIds": [
+                "b_thanks",
+                "g_doze",
+                "g_mgoi",
+                "g_baibai"
               ]
             }
           ]
@@ -206,43 +217,1975 @@
             "phase4_social_baai1_baai3"
           ]
         }
-      ]
+      ],
+      "mindMap": {
+        "title": "Greetings map",
+        "layout": "radial",
+        "centerNodeId": "g_center",
+        "nodes": [
+          {
+            "id": "g_center",
+            "kind": "center",
+            "cardId": "exp_whk_69112_daa2_ziu1_fu1",
+            "emoji": "👋",
+            "english": "saying hello"
+          },
+          {
+            "id": "b_hello",
+            "kind": "branch",
+            "parentId": "g_center",
+            "label": "Hello",
+            "characters": "你好",
+            "jyutping": "nei5 hou2",
+            "english": "hello",
+            "emoji": "😊",
+            "color": "orange",
+            "layout": "grid"
+          },
+          {
+            "id": "g_neihou",
+            "kind": "word",
+            "parentId": "b_hello",
+            "cardId": "phase4_social_nei5_hou2",
+            "english": "hello"
+          },
+          {
+            "id": "g_zousan",
+            "kind": "word",
+            "parentId": "b_hello",
+            "cardId": "phase4_social_zou2_san4"
+          },
+          {
+            "id": "g_wai",
+            "kind": "word",
+            "parentId": "b_hello",
+            "cardId": "phase6_interjections_wai2",
+            "english": "hello? (on the phone)"
+          },
+          {
+            "id": "g_longtime",
+            "kind": "word",
+            "parentId": "b_hello",
+            "cardId": "phase6_smalltalk_hou2_noi6_mou5_gin3"
+          },
+          {
+            "id": "b_thanks",
+            "kind": "branch",
+            "parentId": "g_center",
+            "label": "Thank you",
+            "characters": "多謝",
+            "jyutping": "do1 ze6",
+            "english": "thank you",
+            "emoji": "🎁",
+            "color": "green",
+            "layout": "grid"
+          },
+          {
+            "id": "g_doze",
+            "kind": "word",
+            "parentId": "b_thanks",
+            "cardId": "phase4_social_do1_ze6",
+            "english": "thank you (for a gift)"
+          },
+          {
+            "id": "g_mgoi",
+            "kind": "word",
+            "parentId": "b_thanks",
+            "cardId": "phase4_social_m4_goi1",
+            "english": "thank you (for help) / please"
+          },
+          {
+            "id": "b_sorry",
+            "kind": "branch",
+            "parentId": "g_center",
+            "label": "Sorry & it's OK",
+            "characters": "對唔住",
+            "jyutping": "deoi3 m4 zyu6",
+            "english": "sorry",
+            "emoji": "🤗",
+            "color": "purple",
+            "layout": "timeline"
+          },
+          {
+            "id": "g_sorry",
+            "kind": "word",
+            "parentId": "b_sorry",
+            "cardId": "phase5_responses_deoi3_m4_zyu6"
+          },
+          {
+            "id": "g_ok",
+            "kind": "word",
+            "parentId": "b_sorry",
+            "cardId": "phase1_negation_m4_gan2_jiu3"
+          },
+          {
+            "id": "b_bye",
+            "kind": "branch",
+            "parentId": "g_center",
+            "label": "Bye",
+            "characters": "拜拜",
+            "jyutping": "baai1 baai3",
+            "english": "bye",
+            "emoji": "🌙",
+            "color": "teal",
+            "layout": "grid"
+          },
+          {
+            "id": "g_baibai",
+            "kind": "word",
+            "parentId": "b_bye",
+            "cardId": "phase4_social_baai1_baai3"
+          },
+          {
+            "id": "g_zoigin",
+            "kind": "word",
+            "parentId": "b_bye",
+            "cardId": "pleco_hsk1_272_zoi3_gin3"
+          },
+          {
+            "id": "g_zoutau",
+            "kind": "word",
+            "parentId": "b_bye",
+            "cardId": "lab_greet_zou2_tau2"
+          }
+        ],
+        "edges": [
+          {
+            "from": "g_sorry",
+            "to": "g_ok",
+            "kind": "timeline",
+            "label": "reply"
+          },
+          {
+            "from": "g_doze",
+            "to": "g_mgoi",
+            "kind": "related",
+            "label": "both = thanks"
+          },
+          {
+            "from": "g_zousan",
+            "to": "g_zoutau",
+            "kind": "related",
+            "label": "morning ↔ night"
+          },
+          {
+            "from": "g_baibai",
+            "to": "g_zoigin",
+            "kind": "related"
+          }
+        ],
+        "combines": []
+      }
     },
     {
       "id": "lab_how_to_tell_the_time",
       "title": "How to tell the time",
-      "subtitle": "",
-      "iconName": "flask.fill",
+      "subtitle": "Clocks, days, weeks and months",
+      "iconName": "clock.fill",
       "status": "published",
-      "audience": "both",
+      "audience": "kids",
       "units": [
         {
-          "id": "unit_1",
-          "title": "Unit 1",
-          "subtitle": "",
+          "id": "unit_clock_numbers",
+          "title": "Clock numbers",
+          "subtitle": "Count to 12 and say o'clock",
           "lessons": [
             {
-              "id": "lesson_1",
-              "title": "Lesson 1",
+              "id": "lesson_numbers",
+              "title": "Numbers 1 to 12",
+              "mapNodeIds": [
+                "b_numbers",
+                "n_3",
+                "n_10",
+                "n_11",
+                "n_12"
+              ],
               "steps": [
                 {
-                  "id": "step_1_x28x",
+                  "id": "step_1",
                   "type": "intro",
-                  "title": "This is telling the time",
-                  "text": "Something is telling the time"
+                  "title": "Clock numbers",
+                  "text": "A clock has the numbers 1 to 12. Let's count in Cantonese: 一、二、三 … all the way to 十二!"
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "phase1_numbers_saam1",
+                  "prompt": "三 means three."
+                },
+                {
+                  "id": "step_3",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase1_numbers_saam1",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_4",
+                  "type": "teach",
+                  "cardId": "lab_time_sap6_jat1",
+                  "prompt": "十 + 一 = 十一 (eleven)."
+                },
+                {
+                  "id": "step_5",
+                  "type": "teach",
+                  "cardId": "lab_time_sap6_ji6",
+                  "prompt": "十 + 二 = 十二 (twelve)."
+                },
+                {
+                  "id": "step_6",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "lab_time_sap6_ji6",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_7",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "lab_time_sap6_jat1",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_8",
+                  "type": "exercise",
+                  "exercise": "jyutping_match",
+                  "cardId": "phase1_numbers_sap6",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            },
+            {
+              "id": "lesson_oclock",
+              "title": "O'clock: 點",
+              "mapNodeIds": [
+                "w_dim",
+                "w_3dim",
+                "w_12dim"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "What is 點?",
+                  "text": "Put 點 (dim2) after a number to say the hour. 三點 = three o'clock."
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "lab_time_dim2",
+                  "prompt": "點 tells us the hour."
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "lab_time_saam1_dim2",
+                  "prompt": "三 + 點 = 三點"
+                },
+                {
+                  "id": "step_4",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "lab_time_saam1_dim2",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_5",
+                  "type": "sentence",
+                  "sentenceId": "s_now_3",
+                  "prompt": "Say what time it is."
+                },
+                {
+                  "id": "step_6",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": "lab_time_saam1_dim2",
+                  "sentenceId": "s_now_3",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_7",
+                  "type": "teach",
+                  "cardId": "lab_time_sap6_ji6_dim2",
+                  "prompt": "十二點 is twelve o'clock."
+                },
+                {
+                  "id": "step_8",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "lab_time_sap6_ji6_dim2",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_half_five",
+          "title": "Half past and 5-minute steps",
+          "subtitle": "半 and 個字",
+          "lessons": [
+            {
+              "id": "lesson_half",
+              "title": "Half past: 半",
+              "mapNodeIds": [
+                "w_bun",
+                "w_3dim_bun"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "Half past",
+                  "text": "When the long hand points to 6, it is half past. Say the hour + 點 + 半: 三點半."
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "phase3_time_bun3",
+                  "prompt": "半 means half."
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "lab_time_saam1_dim2_bun3",
+                  "prompt": "三點 + 半 = 三點半"
+                },
+                {
+                  "id": "step_4",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "lab_time_saam1_dim2_bun3",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_5",
+                  "type": "sentence",
+                  "sentenceId": "s_sleep",
+                  "prompt": "Bedtime!"
+                },
+                {
+                  "id": "step_6",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "phase3_time_bun3",
+                  "sentenceId": "s_sleep",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_7",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase3_time_bun3",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            },
+            {
+              "id": "lesson_gozi",
+              "title": "Five-minute steps: 個字",
+              "mapNodeIds": [
+                "w_gozi",
+                "w_3dim_3gozi"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "One 字 is five minutes",
+                  "text": "On a Hong Kong clock, each number the long hand points to is one 字 (zi6) = 5 minutes. 一個字 = 5 minutes, 三個字 = 15 minutes."
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "lab_time_go3_zi6",
+                  "prompt": "個字 counts 5-minute steps."
+                },
+                {
+                  "id": "step_3",
+                  "type": "exercise",
+                  "exercise": "jyutping_match",
+                  "cardId": "lab_time_go3_zi6",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_4",
+                  "type": "sentence",
+                  "sentenceId": "s_two_zi",
+                  "prompt": "Two 字 make ten minutes."
+                },
+                {
+                  "id": "step_5",
+                  "type": "teach",
+                  "cardId": "lab_time_saam1_dim2_saam1_go3_zi6",
+                  "prompt": "三點 + 三個字 = 3:15"
+                },
+                {
+                  "id": "step_6",
+                  "type": "sentence",
+                  "sentenceId": "s_quarter",
+                  "prompt": "Say the time."
+                },
+                {
+                  "id": "step_7",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": "lab_time_saam1_dim2_saam1_go3_zi6",
+                  "sentenceId": "s_quarter",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_8",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "lab_time_saam1_dim2_saam1_go3_zi6",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_minutes",
+          "title": "Minutes",
+          "subtitle": "分 for exact times like 三點十分",
+          "lessons": [
+            {
+              "id": "lesson_minutes",
+              "title": "Minutes: 分",
+              "mapNodeIds": [
+                "w_fan",
+                "w_3dim_10fan",
+                "w_fanzung"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "Minutes",
+                  "text": "分 (fan1) means minutes on the clock. Hour + 點 + minutes + 分: 三點十分 = 3:10."
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "pleco_hsk1_055_fan1",
+                  "prompt": "分 = minutes on the clock."
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "lab_time_saam1_dim2_sap6_fan1",
+                  "prompt": "點 + 分 → 三點十分"
+                },
+                {
+                  "id": "step_4",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "lab_time_saam1_dim2_sap6_fan1",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_5",
+                  "type": "sentence",
+                  "sentenceId": "s_school",
+                  "prompt": "Time for school!"
+                },
+                {
+                  "id": "step_6",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "pleco_hsk1_055_fan1",
+                  "sentenceId": "s_school",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_7",
+                  "type": "teach",
+                  "cardId": "phase3_time_fan1_zung1",
+                  "prompt": "分鐘 = minutes (how long something takes)."
+                },
+                {
+                  "id": "step_8",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "phase3_time_fan1_zung1",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_asking",
+          "title": "What time is it?",
+          "subtitle": "而家幾點呀？",
+          "lessons": [
+            {
+              "id": "lesson_asking",
+              "title": "Ask the time",
+              "mapNodeIds": [
+                "w_jigaa",
+                "w_geidim",
+                "e_whattime"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "Ask the time",
+                  "text": "Want to know the time? Ask: 而家幾點呀？ (What time is it now?)"
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "phase3_time_ji4_gaa1",
+                  "prompt": "而家 = now"
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "lab_time_gei2_dim2",
+                  "prompt": "幾點 = what time?"
+                },
+                {
+                  "id": "step_4",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "lab_time_gei2_dim2",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_5",
+                  "type": "sentence",
+                  "sentenceId": "s_whattime",
+                  "prompt": "Ask a grown-up."
+                },
+                {
+                  "id": "step_6",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": "lab_time_gei2_dim2",
+                  "sentenceId": "s_whattime",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_7",
+                  "type": "sentence",
+                  "sentenceId": "s_now_7",
+                  "prompt": "And answer!"
+                },
+                {
+                  "id": "step_8",
+                  "type": "exercise",
+                  "exercise": "english_word_bank",
+                  "cardId": "phase3_time_ji4_gaa1",
+                  "sentenceId": "s_now_7",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_9",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase3_time_ji4_gaa1",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_day_parts",
+          "title": "Parts of the day",
+          "subtitle": "Morning, noon and night",
+          "lessons": [
+            {
+              "id": "lesson_day_parts",
+              "title": "Morning, noon, night",
+              "mapNodeIds": [
+                "w_ziuzou",
+                "w_zungng",
+                "w_aanzau",
+                "w_jemaan"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "A whole day",
+                  "text": "朝早 morning → 中午 noon → 晏晝 afternoon → 夜晚 night."
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "phase3_time_ziu1_zou2",
+                  "prompt": "朝早 = morning"
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "pleco_hsk1_291_zung1_ng5",
+                  "prompt": "中午 = noon"
+                },
+                {
+                  "id": "step_4",
+                  "type": "teach",
+                  "cardId": "phase3_time_aan3_zau3",
+                  "prompt": "晏晝 = afternoon"
+                },
+                {
+                  "id": "step_5",
+                  "type": "teach",
+                  "cardId": "phase3_time_je6_maan5",
+                  "prompt": "夜晚 = night"
+                },
+                {
+                  "id": "step_6",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase3_time_ziu1_zou2",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_7",
+                  "type": "sentence",
+                  "sentenceId": "s_wake",
+                  "prompt": "Wake up!"
+                },
+                {
+                  "id": "step_8",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "phase3_time_ziu1_zou2",
+                  "sentenceId": "s_wake",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_9",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "phase3_time_je6_maan5",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            },
+            {
+              "id": "lesson_am_pm",
+              "title": "上晝 and 下晝",
+              "mapNodeIds": [
+                "w_soengzau",
+                "w_haazau"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "Before and after noon",
+                  "text": "上晝 is the morning part of the day (a.m.). 下晝 is after lunch (p.m.)."
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "pleco_hsk1_178_soeng6_zau3",
+                  "prompt": "上晝 = a.m., before noon"
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "curriculum_preschool_3_haa6_zau3",
+                  "prompt": "下晝 = p.m., afternoon"
+                },
+                {
+                  "id": "step_4",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "curriculum_preschool_3_haa6_zau3",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_5",
+                  "type": "sentence",
+                  "sentenceId": "s_lunch",
+                  "prompt": "Lunch time!"
+                },
+                {
+                  "id": "step_6",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": "pleco_hsk1_291_zung1_ng5",
+                  "sentenceId": "s_lunch",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_7",
+                  "type": "sentence",
+                  "sentenceId": "s_pm_park",
+                  "prompt": "Off to the park."
+                },
+                {
+                  "id": "step_8",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "curriculum_preschool_3_haa6_zau3",
+                  "sentenceId": "s_pm_park",
+                  "prompt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_days",
+          "title": "Yesterday, today, tomorrow",
+          "subtitle": "前日 · 尋日 · 今日 · 聽日 · 後日",
+          "lessons": [
+            {
+              "id": "lesson_days",
+              "title": "Yesterday, today, tomorrow",
+              "mapNodeIds": [
+                "b_days",
+                "w_cinjat",
+                "w_camjat",
+                "w_gamjat",
+                "w_tingjat",
+                "w_haujat"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "Day by day",
+                  "text": "Think of a line: 前日 → 尋日 → 今日 → 聽日 → 後日. Today is in the middle!"
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "phase3_time_gam1_jat6",
+                  "prompt": "今日 = today"
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "lab_time_cam4_jat6",
+                  "prompt": "尋日 = yesterday (you may also hear 琴日)."
+                },
+                {
+                  "id": "step_4",
+                  "type": "teach",
+                  "cardId": "phase3_time_ting1_jat6",
+                  "prompt": "聽日 = tomorrow"
+                },
+                {
+                  "id": "step_5",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "phase3_time_ting1_jat6",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_6",
+                  "type": "teach",
+                  "cardId": "exp_whk_68076_cin4_jat6",
+                  "prompt": "前日 = the day before yesterday"
+                },
+                {
+                  "id": "step_7",
+                  "type": "teach",
+                  "cardId": "phase3_time_hau6_jat6",
+                  "prompt": "後日 = the day after tomorrow"
+                },
+                {
+                  "id": "step_8",
+                  "type": "sentence",
+                  "sentenceId": "s_yesterday_park",
+                  "prompt": "What did you do yesterday?"
+                },
+                {
+                  "id": "step_9",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "lab_time_cam4_jat6",
+                  "sentenceId": "s_yesterday_park",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_10",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "phase3_time_hau6_jat6",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_week",
+          "title": "Days of the week",
+          "subtitle": "星期一 to 星期日",
+          "lessons": [
+            {
+              "id": "lesson_week",
+              "title": "星期一 to 星期日",
+              "mapNodeIds": [
+                "b_weeks",
+                "wk_1",
+                "wk_2",
+                "wk_3",
+                "wk_4",
+                "wk_5",
+                "wk_6",
+                "wk_7",
+                "wk_gei"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "Seven days",
+                  "text": "星期 means week. Add a number: 星期一 Monday … 星期六 Saturday. Sunday is special: 星期日!"
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "pleco_hsk1_243_sing1_kei4",
+                  "prompt": "星期 = week"
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "exp_whk_84512_sing1_kei4_jat1",
+                  "prompt": "星期 + 一 = Monday"
+                },
+                {
+                  "id": "step_4",
+                  "type": "teach",
+                  "cardId": "pleco_hsk1_244_sing1_kei4_jat6",
+                  "prompt": "Sunday is 星期日 (not 星期七!)"
+                },
+                {
+                  "id": "step_5",
+                  "type": "sentence",
+                  "sentenceId": "s_today_mon",
+                  "prompt": "What day is it?"
+                },
+                {
+                  "id": "step_6",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": "exp_whk_84512_sing1_kei4_jat1",
+                  "sentenceId": "s_today_mon",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_7",
+                  "type": "teach",
+                  "cardId": "lab_time_sing1_kei4_gei2",
+                  "prompt": "星期幾？ = which day?"
+                },
+                {
+                  "id": "step_8",
+                  "type": "sentence",
+                  "sentenceId": "s_whatday",
+                  "prompt": "Ask which day it is."
+                },
+                {
+                  "id": "step_9",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "lab_time_sing1_kei4_ng5",
+                  "sentenceId": null,
+                  "prompt": "星期 + 五 = ?"
+                },
+                {
+                  "id": "step_10",
+                  "type": "exercise",
+                  "exercise": "listening_to_meaning",
+                  "cardId": "pleco_hsk1_244_sing1_kei4_jat6",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_months",
+          "title": "Months",
+          "subtitle": "一月 to 十二月",
+          "lessons": [
+            {
+              "id": "lesson_months",
+              "title": "一月 to 十二月",
+              "mapNodeIds": [
+                "b_months",
+                "m_1",
+                "m_2",
+                "m_3",
+                "m_4",
+                "m_5",
+                "m_6",
+                "m_7",
+                "m_8",
+                "m_9",
+                "m_10",
+                "m_11",
+                "m_12"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "Twelve months",
+                  "text": "月 means month. Number + 月: 一月 January, 二月 February … 十二月 December."
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "phase3_time_jyut6",
+                  "prompt": "月 = month"
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "exp_whk_76409_jat1_jyut6",
+                  "prompt": "一 + 月 = January"
+                },
+                {
+                  "id": "step_4",
+                  "type": "teach",
+                  "cardId": "lab_time_ji6_jyut6",
+                  "prompt": "二 + 月 = February"
+                },
+                {
+                  "id": "step_5",
+                  "type": "exercise",
+                  "exercise": "meaning_to_character",
+                  "cardId": "lab_time_saam1_jyut6",
+                  "sentenceId": null,
+                  "prompt": "三 + 月 = ?"
+                },
+                {
+                  "id": "step_6",
+                  "type": "sentence",
+                  "sentenceId": "s_year",
+                  "prompt": "How many months?"
+                },
+                {
+                  "id": "step_7",
+                  "type": "exercise",
+                  "exercise": "english_word_bank",
+                  "cardId": "phase3_time_jyut6",
+                  "sentenceId": "s_year",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_8",
+                  "type": "sentence",
+                  "sentenceId": "s_birthday",
+                  "prompt": "When is your birthday?"
+                },
+                {
+                  "id": "step_9",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "exp_whk_83303_sap6_ji6_jyut6",
+                  "sentenceId": "s_birthday",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_10",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "exp_whk_90058_ng5_jyut6",
+                  "sentenceId": null,
+                  "prompt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit_early_late",
+          "title": "Early, late and the clock",
+          "subtitle": "早 · 遲 · 鐘",
+          "lessons": [
+            {
+              "id": "lesson_early_late",
+              "title": "Early or late?",
+              "mapNodeIds": [
+                "b_clock",
+                "b_words",
+                "w_zou",
+                "w_ci",
+                "w_cidou"
+              ],
+              "steps": [
+                {
+                  "id": "step_1",
+                  "type": "intro",
+                  "title": "Early or late?",
+                  "text": "早 means early. 遲 means late. Look at the 鐘 (clock) so you are not 遲到!"
+                },
+                {
+                  "id": "step_2",
+                  "type": "teach",
+                  "cardId": "lab_time_zung1",
+                  "prompt": "鐘 = clock"
+                },
+                {
+                  "id": "step_3",
+                  "type": "teach",
+                  "cardId": "pleco_hsk1_273_zou2",
+                  "prompt": "早 = early"
+                },
+                {
+                  "id": "step_4",
+                  "type": "teach",
+                  "cardId": "pleco_hsk1_215_ci4",
+                  "prompt": "遲 = late"
+                },
+                {
+                  "id": "step_5",
+                  "type": "exercise",
+                  "exercise": "character_to_meaning",
+                  "cardId": "pleco_hsk1_215_ci4",
+                  "sentenceId": null,
+                  "prompt": ""
+                },
+                {
+                  "id": "step_6",
+                  "type": "sentence",
+                  "sentenceId": "s_early",
+                  "prompt": "Wow, so early!"
+                },
+                {
+                  "id": "step_7",
+                  "type": "exercise",
+                  "exercise": "sentence_fill_in",
+                  "cardId": "pleco_hsk1_273_zou2",
+                  "sentenceId": "s_early",
+                  "prompt": ""
+                },
+                {
+                  "id": "step_8",
+                  "type": "teach",
+                  "cardId": "phase3_time_ci4_dou3",
+                  "prompt": "遲到 = to be late (arrive late)"
+                },
+                {
+                  "id": "step_9",
+                  "type": "sentence",
+                  "sentenceId": "s_dont_late",
+                  "prompt": "Hurry up!"
+                },
+                {
+                  "id": "step_10",
+                  "type": "exercise",
+                  "exercise": "word_bank",
+                  "cardId": "phase3_time_ci4_dou3",
+                  "sentenceId": "s_dont_late",
+                  "prompt": ""
                 }
               ]
             }
           ]
         }
       ],
-      "sentences": []
+      "sentences": [
+        {
+          "id": "s_now_3",
+          "characters": "而家三點。",
+          "jyutping": "ji4 gaa1 saam1 dim2.",
+          "translation": "It's three o'clock now.",
+          "audioFile": null,
+          "cardIds": [
+            "phase3_time_ji4_gaa1",
+            "lab_time_saam1_dim2"
+          ]
+        },
+        {
+          "id": "s_now_7",
+          "characters": "而家七點。",
+          "jyutping": "ji4 gaa1 cat1 dim2.",
+          "translation": "It's seven o'clock now.",
+          "audioFile": null,
+          "cardIds": [
+            "phase3_time_ji4_gaa1",
+            "phase1_numbers_cat1",
+            "lab_time_dim2"
+          ]
+        },
+        {
+          "id": "s_sleep",
+          "characters": "我夜晚八點半瞓覺。",
+          "jyutping": "ngo5 je6 maan5 baat3 dim2 bun3 fan3 gaau3.",
+          "translation": "I go to bed at half past eight at night.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_pronouns_ngo5",
+            "phase3_time_je6_maan5",
+            "phase3_time_bun3"
+          ]
+        },
+        {
+          "id": "s_two_zi",
+          "characters": "兩個字即係十分鐘。",
+          "jyutping": "loeng5 go3 zi6 zik1 hai6 sap6 fan1 zung1.",
+          "translation": "Two zi is ten minutes.",
+          "audioFile": null,
+          "cardIds": [
+            "lab_time_go3_zi6",
+            "phase3_time_fan1_zung1"
+          ]
+        },
+        {
+          "id": "s_quarter",
+          "characters": "而家三點三個字。",
+          "jyutping": "ji4 gaa1 saam1 dim2 saam1 go3 zi6.",
+          "translation": "It's 3:15 now.",
+          "audioFile": null,
+          "cardIds": [
+            "phase3_time_ji4_gaa1",
+            "lab_time_saam1_dim2_saam1_go3_zi6"
+          ]
+        },
+        {
+          "id": "s_school",
+          "characters": "我八點十分返學。",
+          "jyutping": "ngo5 baat3 dim2 sap6 fan1 faan1 hok6.",
+          "translation": "I go to school at ten past eight.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_pronouns_ngo5",
+            "pleco_hsk1_055_fan1"
+          ]
+        },
+        {
+          "id": "s_whattime",
+          "characters": "而家幾點呀？",
+          "jyutping": "ji4 gaa1 gei2 dim2 aa3?",
+          "translation": "What time is it now?",
+          "audioFile": null,
+          "cardIds": [
+            "phase3_time_ji4_gaa1",
+            "lab_time_gei2_dim2"
+          ]
+        },
+        {
+          "id": "s_wake",
+          "characters": "我朝早七點起身。",
+          "jyutping": "ngo5 ziu1 zou2 cat1 dim2 hei2 san1.",
+          "translation": "I get up at seven in the morning.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_pronouns_ngo5",
+            "phase3_time_ziu1_zou2",
+            "phase1_numbers_cat1"
+          ]
+        },
+        {
+          "id": "s_lunch",
+          "characters": "我哋中午十二點食晏。",
+          "jyutping": "ngo5 dei6 zung1 ng5 sap6 ji6 dim2 sik6 aan3.",
+          "translation": "We eat lunch at twelve noon.",
+          "audioFile": null,
+          "cardIds": [
+            "pleco_hsk1_291_zung1_ng5",
+            "lab_time_sap6_ji6_dim2"
+          ]
+        },
+        {
+          "id": "s_pm_park",
+          "characters": "我哋下晝三點去公園。",
+          "jyutping": "ngo5 dei6 haa6 zau3 saam1 dim2 heoi3 gung1 jyun2.",
+          "translation": "We go to the park at three in the afternoon.",
+          "audioFile": null,
+          "cardIds": [
+            "curriculum_preschool_3_haa6_zau3",
+            "lab_time_saam1_dim2"
+          ]
+        },
+        {
+          "id": "s_yesterday_park",
+          "characters": "尋日我去咗公園。",
+          "jyutping": "cam4 jat6 ngo5 heoi3 zo2 gung1 jyun2.",
+          "translation": "Yesterday I went to the park.",
+          "audioFile": null,
+          "cardIds": [
+            "lab_time_cam4_jat6"
+          ]
+        },
+        {
+          "id": "s_today_mon",
+          "characters": "今日係星期一。",
+          "jyutping": "gam1 jat6 hai6 sing1 kei4 jat1.",
+          "translation": "Today is Monday.",
+          "audioFile": null,
+          "cardIds": [
+            "phase3_time_gam1_jat6",
+            "exp_whk_84512_sing1_kei4_jat1"
+          ]
+        },
+        {
+          "id": "s_whatday",
+          "characters": "今日星期幾呀？",
+          "jyutping": "gam1 jat6 sing1 kei4 gei2 aa3?",
+          "translation": "What day is it today?",
+          "audioFile": null,
+          "cardIds": [
+            "phase3_time_gam1_jat6",
+            "lab_time_sing1_kei4_gei2"
+          ]
+        },
+        {
+          "id": "s_year",
+          "characters": "一年有十二個月。",
+          "jyutping": "jat1 nin4 jau5 sap6 ji6 go3 jyut6.",
+          "translation": "A year has twelve months.",
+          "audioFile": null,
+          "cardIds": [
+            "phase3_time_nin4",
+            "phase3_time_jyut6"
+          ]
+        },
+        {
+          "id": "s_birthday",
+          "characters": "我生日喺十二月。",
+          "jyutping": "ngo5 saang1 jat6 hai2 sap6 ji6 jyut6.",
+          "translation": "My birthday is in December.",
+          "audioFile": null,
+          "cardIds": [
+            "phase1_pronouns_ngo5",
+            "exp_whk_83303_sap6_ji6_jyut6"
+          ]
+        },
+        {
+          "id": "s_early",
+          "characters": "你今日好早呀！",
+          "jyutping": "nei5 gam1 jat6 hou2 zou2 aa3!",
+          "translation": "You're very early today!",
+          "audioFile": null,
+          "cardIds": [
+            "phase3_time_gam1_jat6",
+            "pleco_hsk1_273_zou2"
+          ]
+        },
+        {
+          "id": "s_dont_late",
+          "characters": "唔好遲到呀！",
+          "jyutping": "m4 hou2 ci4 dou3 aa3!",
+          "translation": "Don't be late!",
+          "audioFile": null,
+          "cardIds": [
+            "phase3_time_ci4_dou3"
+          ]
+        }
+      ],
+      "mindMap": {
+        "title": "Time map",
+        "layout": "radial",
+        "centerNodeId": "time",
+        "startCollapsed": true,
+        "nodes": [
+          {
+            "id": "time",
+            "kind": "center",
+            "cardId": "phase5_work_si4_gaan3",
+            "emoji": "🕰️",
+            "english": "time"
+          },
+          {
+            "id": "b_clock",
+            "kind": "branch",
+            "parentId": "time",
+            "cardId": "lab_time_zung1",
+            "label": "Clock times",
+            "emoji": "⏰",
+            "color": "orange",
+            "layout": "grid"
+          },
+          {
+            "id": "w_dim",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "lab_time_dim2"
+          },
+          {
+            "id": "w_3dim",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "lab_time_saam1_dim2"
+          },
+          {
+            "id": "w_12dim",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "lab_time_sap6_ji6_dim2"
+          },
+          {
+            "id": "w_bun",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "phase3_time_bun3",
+            "english": "half (past)"
+          },
+          {
+            "id": "w_3dim_bun",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "lab_time_saam1_dim2_bun3"
+          },
+          {
+            "id": "w_gozi",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "lab_time_go3_zi6"
+          },
+          {
+            "id": "w_3dim_3gozi",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "lab_time_saam1_dim2_saam1_go3_zi6"
+          },
+          {
+            "id": "w_fan",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "pleco_hsk1_055_fan1",
+            "english": "minutes (on the clock)"
+          },
+          {
+            "id": "w_3dim_10fan",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "lab_time_saam1_dim2_sap6_fan1"
+          },
+          {
+            "id": "w_fanzung",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "phase3_time_fan1_zung1",
+            "english": "minutes (how long)"
+          },
+          {
+            "id": "w_jigaa",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "phase3_time_ji4_gaa1"
+          },
+          {
+            "id": "w_geidim",
+            "kind": "word",
+            "parentId": "b_clock",
+            "cardId": "lab_time_gei2_dim2"
+          },
+          {
+            "id": "e_whattime",
+            "kind": "example",
+            "parentId": "b_clock",
+            "sentenceId": "s_whattime"
+          },
+          {
+            "id": "b_numbers",
+            "kind": "branch",
+            "parentId": "time",
+            "label": "Numbers 1–12",
+            "characters": "數字",
+            "jyutping": "sou3 zi6",
+            "english": "numbers",
+            "emoji": "🔢",
+            "color": "blue",
+            "layout": "ring"
+          },
+          {
+            "id": "n_1",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_jat1"
+          },
+          {
+            "id": "n_2",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_ji6"
+          },
+          {
+            "id": "n_3",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_saam1"
+          },
+          {
+            "id": "n_4",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_sei3"
+          },
+          {
+            "id": "n_5",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_ng5"
+          },
+          {
+            "id": "n_6",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_luk6"
+          },
+          {
+            "id": "n_7",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_cat1"
+          },
+          {
+            "id": "n_8",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_baat3"
+          },
+          {
+            "id": "n_9",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_gau2"
+          },
+          {
+            "id": "n_10",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "phase1_numbers_sap6"
+          },
+          {
+            "id": "n_11",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "lab_time_sap6_jat1"
+          },
+          {
+            "id": "n_12",
+            "kind": "word",
+            "parentId": "b_numbers",
+            "cardId": "lab_time_sap6_ji6"
+          },
+          {
+            "id": "b_parts",
+            "kind": "branch",
+            "parentId": "time",
+            "label": "Parts of the day",
+            "characters": "一日",
+            "jyutping": "jat1 jat6",
+            "english": "one day",
+            "emoji": "🌤️",
+            "color": "yellow",
+            "layout": "timeline"
+          },
+          {
+            "id": "w_ziuzou",
+            "kind": "word",
+            "parentId": "b_parts",
+            "cardId": "phase3_time_ziu1_zou2"
+          },
+          {
+            "id": "w_zungng",
+            "kind": "word",
+            "parentId": "b_parts",
+            "cardId": "pleco_hsk1_291_zung1_ng5",
+            "english": "noon"
+          },
+          {
+            "id": "w_aanzau",
+            "kind": "word",
+            "parentId": "b_parts",
+            "cardId": "phase3_time_aan3_zau3",
+            "english": "afternoon"
+          },
+          {
+            "id": "w_jemaan",
+            "kind": "word",
+            "parentId": "b_parts",
+            "cardId": "phase3_time_je6_maan5",
+            "english": "night"
+          },
+          {
+            "id": "w_soengzau",
+            "kind": "word",
+            "parentId": "w_ziuzou",
+            "cardId": "pleco_hsk1_178_soeng6_zau3",
+            "english": "a.m. (before noon)",
+            "direction": "s"
+          },
+          {
+            "id": "w_haazau",
+            "kind": "word",
+            "parentId": "w_aanzau",
+            "cardId": "curriculum_preschool_3_haa6_zau3",
+            "english": "p.m. (afternoon)",
+            "direction": "s"
+          },
+          {
+            "id": "b_days",
+            "kind": "branch",
+            "parentId": "time",
+            "cardId": "pleco_hsk1_172_jat6",
+            "label": "Days",
+            "emoji": "📅",
+            "color": "green",
+            "layout": "timeline"
+          },
+          {
+            "id": "w_cinjat",
+            "kind": "word",
+            "parentId": "b_days",
+            "cardId": "exp_whk_68076_cin4_jat6"
+          },
+          {
+            "id": "w_camjat",
+            "kind": "word",
+            "parentId": "b_days",
+            "cardId": "lab_time_cam4_jat6"
+          },
+          {
+            "id": "w_gamjat",
+            "kind": "word",
+            "parentId": "b_days",
+            "cardId": "phase3_time_gam1_jat6",
+            "highlight": true
+          },
+          {
+            "id": "w_tingjat",
+            "kind": "word",
+            "parentId": "b_days",
+            "cardId": "phase3_time_ting1_jat6"
+          },
+          {
+            "id": "w_haujat",
+            "kind": "word",
+            "parentId": "b_days",
+            "cardId": "phase3_time_hau6_jat6",
+            "english": "the day after tomorrow"
+          },
+          {
+            "id": "b_weeks",
+            "kind": "branch",
+            "parentId": "time",
+            "cardId": "pleco_hsk1_243_sing1_kei4",
+            "label": "Weeks",
+            "emoji": "🗓️",
+            "color": "purple",
+            "layout": "ring",
+            "english": "week"
+          },
+          {
+            "id": "wk_1",
+            "kind": "word",
+            "parentId": "b_weeks",
+            "cardId": "exp_whk_84512_sing1_kei4_jat1"
+          },
+          {
+            "id": "wk_2",
+            "kind": "word",
+            "parentId": "b_weeks",
+            "cardId": "lab_time_sing1_kei4_ji6"
+          },
+          {
+            "id": "wk_3",
+            "kind": "word",
+            "parentId": "b_weeks",
+            "cardId": "exp_whk_84517_sing1_kei4_saam1"
+          },
+          {
+            "id": "wk_4",
+            "kind": "word",
+            "parentId": "b_weeks",
+            "cardId": "lab_time_sing1_kei4_sei3"
+          },
+          {
+            "id": "wk_5",
+            "kind": "word",
+            "parentId": "b_weeks",
+            "cardId": "lab_time_sing1_kei4_ng5"
+          },
+          {
+            "id": "wk_6",
+            "kind": "word",
+            "parentId": "b_weeks",
+            "cardId": "exp_whk_84515_sing1_kei4_luk6"
+          },
+          {
+            "id": "wk_7",
+            "kind": "word",
+            "parentId": "b_weeks",
+            "cardId": "pleco_hsk1_244_sing1_kei4_jat6"
+          },
+          {
+            "id": "wk_gei",
+            "kind": "word",
+            "parentId": "b_weeks",
+            "cardId": "lab_time_sing1_kei4_gei2"
+          },
+          {
+            "id": "b_months",
+            "kind": "branch",
+            "parentId": "time",
+            "cardId": "phase3_time_jyut6",
+            "label": "Months",
+            "emoji": "🌙",
+            "color": "teal",
+            "layout": "ring",
+            "english": "month"
+          },
+          {
+            "id": "m_1",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "exp_whk_76409_jat1_jyut6"
+          },
+          {
+            "id": "m_2",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "lab_time_ji6_jyut6"
+          },
+          {
+            "id": "m_3",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "lab_time_saam1_jyut6"
+          },
+          {
+            "id": "m_4",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "lab_time_sei3_jyut6"
+          },
+          {
+            "id": "m_5",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "exp_whk_90058_ng5_jyut6"
+          },
+          {
+            "id": "m_6",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "lab_time_luk6_jyut6"
+          },
+          {
+            "id": "m_7",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "exp_whk_67480_cat1_jyut6",
+            "english": "July"
+          },
+          {
+            "id": "m_8",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "exp_whk_40324_baat3_jyut6"
+          },
+          {
+            "id": "m_9",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "exp_whk_72696_gau2_jyut6"
+          },
+          {
+            "id": "m_10",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "lab_time_sap6_jyut6"
+          },
+          {
+            "id": "m_11",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "lab_time_sap6_jat1_jyut6"
+          },
+          {
+            "id": "m_12",
+            "kind": "word",
+            "parentId": "b_months",
+            "cardId": "exp_whk_83303_sap6_ji6_jyut6"
+          },
+          {
+            "id": "b_words",
+            "kind": "branch",
+            "parentId": "time",
+            "label": "Early or late?",
+            "characters": "早定遲",
+            "jyutping": "zou2 ding6 ci4",
+            "english": "early or late?",
+            "emoji": "🏃",
+            "color": "pink",
+            "layout": "grid"
+          },
+          {
+            "id": "w_zou",
+            "kind": "word",
+            "parentId": "b_words",
+            "cardId": "pleco_hsk1_273_zou2",
+            "english": "early"
+          },
+          {
+            "id": "w_ci",
+            "kind": "word",
+            "parentId": "b_words",
+            "cardId": "pleco_hsk1_215_ci4",
+            "english": "late"
+          },
+          {
+            "id": "w_cidou",
+            "kind": "word",
+            "parentId": "b_words",
+            "cardId": "phase3_time_ci4_dou3",
+            "english": "to be late"
+          },
+          {
+            "id": "w_zungtau",
+            "kind": "word",
+            "parentId": "b_words",
+            "cardId": "phase3_time_zung1_tau4",
+            "english": "an hour (how long)"
+          }
+        ],
+        "edges": [
+          {
+            "from": "w_cinjat",
+            "to": "w_camjat",
+            "kind": "timeline"
+          },
+          {
+            "from": "w_camjat",
+            "to": "w_gamjat",
+            "kind": "timeline"
+          },
+          {
+            "from": "w_gamjat",
+            "to": "w_tingjat",
+            "kind": "timeline"
+          },
+          {
+            "from": "w_tingjat",
+            "to": "w_haujat",
+            "kind": "timeline"
+          },
+          {
+            "from": "w_ziuzou",
+            "to": "w_zungng",
+            "kind": "timeline"
+          },
+          {
+            "from": "w_zungng",
+            "to": "w_aanzau",
+            "kind": "timeline"
+          },
+          {
+            "from": "w_aanzau",
+            "to": "w_jemaan",
+            "kind": "timeline"
+          },
+          {
+            "from": "w_soengzau",
+            "to": "w_haazau",
+            "kind": "opposite"
+          },
+          {
+            "from": "w_zou",
+            "to": "w_ci",
+            "kind": "opposite"
+          },
+          {
+            "from": "w_ci",
+            "to": "w_cidou",
+            "kind": "related"
+          },
+          {
+            "from": "w_fan",
+            "to": "w_fanzung",
+            "kind": "related"
+          },
+          {
+            "from": "w_3dim",
+            "to": "w_3dim_bun",
+            "kind": "related",
+            "label": "+ 半"
+          },
+          {
+            "from": "w_ziuzou",
+            "to": "w_zou",
+            "kind": "related",
+            "label": "早"
+          },
+          {
+            "from": "wk_1",
+            "to": "wk_2",
+            "kind": "timeline"
+          },
+          {
+            "from": "wk_2",
+            "to": "wk_3",
+            "kind": "timeline"
+          },
+          {
+            "from": "wk_3",
+            "to": "wk_4",
+            "kind": "timeline"
+          },
+          {
+            "from": "wk_4",
+            "to": "wk_5",
+            "kind": "timeline"
+          },
+          {
+            "from": "wk_5",
+            "to": "wk_6",
+            "kind": "timeline"
+          },
+          {
+            "from": "wk_6",
+            "to": "wk_7",
+            "kind": "timeline"
+          }
+        ],
+        "combines": [
+          {
+            "id": "c_3dim",
+            "parts": [
+              "n_3",
+              "w_dim"
+            ],
+            "result": "w_3dim",
+            "label": "三 + 點 → 三點"
+          },
+          {
+            "id": "c_12dim",
+            "parts": [
+              "n_12",
+              "w_dim"
+            ],
+            "result": "w_12dim",
+            "label": "十二 + 點 → 十二點"
+          },
+          {
+            "id": "c_half",
+            "parts": [
+              "w_3dim",
+              "w_bun"
+            ],
+            "result": "w_3dim_bun",
+            "label": "三點 + 半 → 三點半"
+          },
+          {
+            "id": "c_gozi",
+            "parts": [
+              "w_3dim",
+              "n_3",
+              "w_gozi"
+            ],
+            "result": "w_3dim_3gozi",
+            "label": "三點 + 三個字 → 三點三個字"
+          },
+          {
+            "id": "c_fan",
+            "parts": [
+              "w_dim",
+              "w_fan"
+            ],
+            "result": "w_3dim_10fan",
+            "label": "點 + 分 → 三點十分"
+          },
+          {
+            "id": "c_whattime",
+            "parts": [
+              "w_jigaa",
+              "w_geidim"
+            ],
+            "result": "e_whattime",
+            "label": "而家 + 幾點 → 而家幾點呀？"
+          },
+          {
+            "id": "c_mon",
+            "parts": [
+              "b_weeks",
+              "n_1"
+            ],
+            "result": "wk_1",
+            "label": "星期 + 一 → 星期一"
+          },
+          {
+            "id": "c_fri",
+            "parts": [
+              "b_weeks",
+              "n_5"
+            ],
+            "result": "wk_5",
+            "label": "星期 + 五 → 星期五"
+          },
+          {
+            "id": "c_jan",
+            "parts": [
+              "n_1",
+              "b_months"
+            ],
+            "result": "m_1",
+            "label": "一 + 月 → 一月"
+          },
+          {
+            "id": "c_dec",
+            "parts": [
+              "n_12",
+              "b_months"
+            ],
+            "result": "m_12",
+            "label": "十二 + 月 → 十二月"
+          },
+          {
+            "id": "c_11",
+            "parts": [
+              "n_10",
+              "n_1"
+            ],
+            "result": "n_11",
+            "label": "十 + 一 → 十一"
+          },
+          {
+            "id": "c_12",
+            "parts": [
+              "n_10",
+              "n_2"
+            ],
+            "result": "n_12",
+            "label": "十 + 二 → 十二"
+          }
+        ]
+      }
     },
     {
       "id": "lab_directions",
       "title": "Directions",
       "subtitle": "Ask where things are and describe positions using natural spoken Hong Kong Cantonese.",
-      "iconName": "flask.fill",
+      "iconName": "location.north.circle.fill",
       "status": "published",
       "audience": "both",
       "units": [
@@ -357,6 +2300,14 @@
                   "sentenceId": "s2",
                   "prompt": "Build the English meaning of the Cantonese sentence."
                 }
+              ],
+              "mapNodeIds": [
+                "b_where",
+                "d_bindou",
+                "d_nidou",
+                "d_godou",
+                "d_hai",
+                "d_where_q"
               ]
             },
             {
@@ -465,6 +2416,10 @@
                   "sentenceId": null,
                   "prompt": "Type the Cantonese character for 'bed'."
                 }
+              ],
+              "mapNodeIds": [
+                "d_up",
+                "d_down"
               ]
             }
           ]
@@ -580,6 +2535,12 @@
                   "sentenceId": null,
                   "prompt": "Identify the tone number of the first syllable."
                 }
+              ],
+              "mapNodeIds": [
+                "d_left",
+                "d_right",
+                "d_front",
+                "d_back"
               ]
             },
             {
@@ -688,6 +2649,16 @@
                   "sentenceId": null,
                   "prompt": "Type the English meaning of the target position word."
                 }
+              ],
+              "mapNodeIds": [
+                "b_near",
+                "b_box",
+                "d_in",
+                "d_out",
+                "d_beside",
+                "d_nearby",
+                "d_opposite",
+                "d_middle"
               ]
             }
           ]
@@ -794,7 +2765,281 @@
             "phase1_location_gaak3_lei4"
           ]
         }
-      ]
+      ],
+      "mindMap": {
+        "title": "Directions map",
+        "layout": "compass",
+        "centerNodeId": "d_me",
+        "nodes": [
+          {
+            "id": "d_me",
+            "kind": "center",
+            "cardId": "phase1_pronouns_ngo5",
+            "emoji": "🧒",
+            "english": "me (I stand here)"
+          },
+          {
+            "id": "d_front",
+            "kind": "word",
+            "parentId": "d_me",
+            "cardId": "phase1_location_cin4_min6",
+            "direction": "n",
+            "color": "orange"
+          },
+          {
+            "id": "d_back",
+            "kind": "word",
+            "parentId": "d_me",
+            "cardId": "phase1_location_hau6_min6",
+            "direction": "s",
+            "color": "orange"
+          },
+          {
+            "id": "d_left",
+            "kind": "word",
+            "parentId": "d_me",
+            "cardId": "phase1_location_zo2_bin1",
+            "direction": "w",
+            "color": "orange",
+            "english": "left"
+          },
+          {
+            "id": "d_right",
+            "kind": "word",
+            "parentId": "d_me",
+            "cardId": "phase1_location_jau6_bin1",
+            "direction": "e",
+            "color": "orange",
+            "english": "right"
+          },
+          {
+            "id": "b_where",
+            "kind": "branch",
+            "parentId": "d_me",
+            "label": "Where?",
+            "characters": "邊度",
+            "jyutping": "bin1 dou6",
+            "english": "where?",
+            "emoji": "❓",
+            "color": "blue",
+            "x": -430,
+            "y": -330,
+            "layout": "grid"
+          },
+          {
+            "id": "d_where_q",
+            "kind": "example",
+            "parentId": "b_where",
+            "characters": "喺邊度呀？",
+            "jyutping": "hai2 bin1 dou6 aa3?",
+            "english": "Where is it?"
+          },
+          {
+            "id": "d_bindou",
+            "kind": "word",
+            "parentId": "b_where",
+            "cardId": "phase1_location_bin1_dou6"
+          },
+          {
+            "id": "d_nidou",
+            "kind": "word",
+            "parentId": "b_where",
+            "cardId": "phase1_location_ni1_dou6"
+          },
+          {
+            "id": "d_godou",
+            "kind": "word",
+            "parentId": "b_where",
+            "cardId": "phase1_location_go2_dou6"
+          },
+          {
+            "id": "d_hai",
+            "kind": "word",
+            "parentId": "b_where",
+            "cardId": "phase1_location_hai2",
+            "english": "at / in / on"
+          },
+          {
+            "id": "b_box",
+            "kind": "branch",
+            "parentId": "d_me",
+            "label": "On, under, in, out",
+            "characters": "枱",
+            "jyutping": "toi2",
+            "english": "table (things around it)",
+            "emoji": "📦",
+            "color": "green",
+            "x": 430,
+            "y": -330
+          },
+          {
+            "id": "d_up",
+            "kind": "word",
+            "parentId": "b_box",
+            "cardId": "phase1_location_soeng6_min6",
+            "direction": "n"
+          },
+          {
+            "id": "d_down",
+            "kind": "word",
+            "parentId": "b_box",
+            "cardId": "phase1_location_haa6_min6",
+            "direction": "s"
+          },
+          {
+            "id": "d_in",
+            "kind": "word",
+            "parentId": "b_box",
+            "cardId": "phase1_location_jap6_min6",
+            "direction": "e"
+          },
+          {
+            "id": "d_out",
+            "kind": "word",
+            "parentId": "b_box",
+            "cardId": "phase1_location_ceot1_min6",
+            "direction": "w"
+          },
+          {
+            "id": "b_near",
+            "kind": "branch",
+            "parentId": "d_me",
+            "label": "Near & far",
+            "characters": "附近",
+            "jyutping": "fu6 gan6",
+            "english": "nearby",
+            "emoji": "🏘️",
+            "color": "purple",
+            "x": 430,
+            "y": 340,
+            "layout": "grid"
+          },
+          {
+            "id": "d_beside",
+            "kind": "word",
+            "parentId": "b_near",
+            "cardId": "phase1_location_gaak3_lei4",
+            "english": "next to"
+          },
+          {
+            "id": "d_nearby",
+            "kind": "word",
+            "parentId": "b_near",
+            "cardId": "phase1_location_fu6_gan6"
+          },
+          {
+            "id": "d_opposite",
+            "kind": "word",
+            "parentId": "b_near",
+            "cardId": "phase1_location_deoi3_min6",
+            "english": "opposite"
+          },
+          {
+            "id": "d_middle",
+            "kind": "word",
+            "parentId": "b_near",
+            "cardId": "phase1_location_zung1_gaan1",
+            "english": "in the middle"
+          },
+          {
+            "id": "b_move",
+            "kind": "branch",
+            "parentId": "d_me",
+            "cardId": "phase1_verbs_haang4",
+            "label": "Moving",
+            "emoji": "🚶",
+            "color": "pink",
+            "x": -430,
+            "y": 340
+          },
+          {
+            "id": "d_straight",
+            "kind": "word",
+            "parentId": "b_move",
+            "cardId": "phase4_transport_zik6_haang4",
+            "direction": "n",
+            "english": "go straight"
+          },
+          {
+            "id": "d_turnleft",
+            "kind": "word",
+            "parentId": "b_move",
+            "cardId": "phase4_transport_zyun3_zo2",
+            "direction": "w"
+          },
+          {
+            "id": "d_turnright",
+            "kind": "word",
+            "parentId": "b_move",
+            "cardId": "phase4_transport_zyun3_jau6",
+            "direction": "e"
+          },
+          {
+            "id": "d_turn",
+            "kind": "word",
+            "parentId": "b_move",
+            "cardId": "exp_whk_66531_zyun3",
+            "direction": "s",
+            "english": "to turn"
+          }
+        ],
+        "edges": [
+          {
+            "from": "d_front",
+            "to": "d_back",
+            "kind": "opposite"
+          },
+          {
+            "from": "d_left",
+            "to": "d_right",
+            "kind": "opposite"
+          },
+          {
+            "from": "d_up",
+            "to": "d_down",
+            "kind": "opposite"
+          },
+          {
+            "from": "d_in",
+            "to": "d_out",
+            "kind": "opposite"
+          },
+          {
+            "from": "d_nidou",
+            "to": "d_godou",
+            "kind": "opposite"
+          }
+        ],
+        "combines": [
+          {
+            "id": "c_where",
+            "parts": [
+              "d_hai",
+              "d_bindou"
+            ],
+            "result": "d_where_q",
+            "label": "喺 + 邊度 → 喺邊度呀？"
+          },
+          {
+            "id": "c_turnleft",
+            "parts": [
+              "d_turn",
+              "d_left"
+            ],
+            "result": "d_turnleft",
+            "label": "轉 + 左 → 轉左"
+          },
+          {
+            "id": "c_turnright",
+            "parts": [
+              "d_turn",
+              "d_right"
+            ],
+            "result": "d_turnright",
+            "label": "轉 + 右 → 轉右"
+          }
+        ]
+      }
     }
   ]
 }

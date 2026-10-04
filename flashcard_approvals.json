@@ -1,6 +1,6 @@
 {
   "requireApprovedOnly": true,
-  "updatedAt": "2026-10-03T15:19:23.000Z",
+  "updatedAt": "2026-10-04T09:18:08.000Z",
   "statuses": {
     "phase1_location_ni1_dou6": "pending",
     "phase1_location_go2_dou6": "pending",
@@ -3727,7 +3727,30 @@
     "exp_priority_57": "approved",
     "exp_priority_58": "approved",
     "exp_priority_59": "approved",
-    "exp_priority_60": "approved"
+    "exp_priority_60": "approved",
+    "lab_time_sap6_jat1": "pending",
+    "lab_time_sap6_ji6": "pending",
+    "lab_time_dim2": "pending",
+    "lab_time_saam1_dim2": "pending",
+    "lab_time_sap6_ji6_dim2": "pending",
+    "lab_time_saam1_dim2_bun3": "pending",
+    "lab_time_go3_zi6": "pending",
+    "lab_time_saam1_dim2_saam1_go3_zi6": "pending",
+    "lab_time_saam1_dim2_sap6_fan1": "pending",
+    "lab_time_gei2_dim2": "pending",
+    "lab_time_cam4_jat6": "pending",
+    "lab_time_sing1_kei4_ji6": "pending",
+    "lab_time_sing1_kei4_sei3": "pending",
+    "lab_time_sing1_kei4_ng5": "pending",
+    "lab_time_sing1_kei4_gei2": "pending",
+    "lab_time_ji6_jyut6": "pending",
+    "lab_time_saam1_jyut6": "pending",
+    "lab_time_sei3_jyut6": "pending",
+    "lab_time_luk6_jyut6": "pending",
+    "lab_time_sap6_jyut6": "pending",
+    "lab_time_sap6_jat1_jyut6": "pending",
+    "lab_time_zung1": "pending",
+    "lab_greet_zou2_tau2": "pending"
   },
   "note": "Approved set = spoken curriculum CSV import only."
 }

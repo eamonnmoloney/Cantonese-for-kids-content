@@ -4,6 +4,9 @@ Public educational JSON (`manifest.json`, `topics.json`, `strokes.json`, `flashc
 
 No API keys, app source, or user data are stored here.
 
+`lab_courses.json` courses may include an optional `mindMap` (nodes / edges / combines) and lessons may
+list `mapNodeIds`; see the app repo README ("Lab course mind maps") for the schema.
+
 CDN: `https://cdn.jsdelivr.net/gh/eamonnmoloney/Cantonese-for-kids-content@main/`
 
 ## Attribution
