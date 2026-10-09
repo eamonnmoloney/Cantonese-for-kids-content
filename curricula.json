@@ -1,0 +1,1482 @@
+{
+  "schemaVersion": 1,
+  "defaultCurriculumId": "classic",
+  "curricula": [
+    {
+      "id": "classic",
+      "version": 1,
+      "title": "Classic",
+      "description": "The original learning path.",
+      "status": "published",
+      "audience": "all",
+      "levels": [
+        {
+          "id": "l1",
+          "title": "L1 · Starter",
+          "packs": [
+            {
+              "id": "s1_hello",
+              "version": 1
+            },
+            {
+              "id": "s1_me_you",
+              "version": 1
+            },
+            {
+              "id": "pack_numbers",
+              "version": 1
+            },
+            {
+              "id": "s1_family",
+              "version": 1
+            },
+            {
+              "id": "s1_food",
+              "version": 1
+            },
+            {
+              "id": "pack_fruit",
+              "version": 1
+            },
+            {
+              "id": "s1_yes_no",
+              "version": 1
+            },
+            {
+              "id": "s1_this_that",
+              "version": 1
+            },
+            {
+              "id": "s1_actions",
+              "version": 1
+            },
+            {
+              "id": "s1_describing",
+              "version": 1
+            },
+            {
+              "id": "s1_home",
+              "version": 1
+            },
+            {
+              "id": "s1_school",
+              "version": 1
+            },
+            {
+              "id": "s1_talking",
+              "version": 1
+            },
+            {
+              "id": "pack_time",
+              "version": 1
+            },
+            {
+              "id": "s1_places",
+              "version": 1
+            },
+            {
+              "id": "s1_out",
+              "version": 1
+            },
+            {
+              "id": "s1_play",
+              "version": 1
+            },
+            {
+              "id": "s1_feelings",
+              "version": 1
+            },
+            {
+              "id": "s1_measure",
+              "version": 1
+            },
+            {
+              "id": "s1_little",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "l2",
+          "title": "L2 · Explorer",
+          "packs": [
+            {
+              "id": "s2_people",
+              "version": 1
+            },
+            {
+              "id": "s2_questions",
+              "version": 1
+            },
+            {
+              "id": "s2_family",
+              "version": 1
+            },
+            {
+              "id": "s2_food",
+              "version": 1
+            },
+            {
+              "id": "s2_body",
+              "version": 1
+            },
+            {
+              "id": "s2_colours",
+              "version": 1
+            },
+            {
+              "id": "s2_home",
+              "version": 1
+            },
+            {
+              "id": "s2_school",
+              "version": 1
+            },
+            {
+              "id": "s2_nature",
+              "version": 1
+            },
+            {
+              "id": "s2_actions_1",
+              "version": 1
+            },
+            {
+              "id": "s2_actions_2",
+              "version": 1
+            },
+            {
+              "id": "s2_actions_3",
+              "version": 1
+            },
+            {
+              "id": "s2_describing_1",
+              "version": 1
+            },
+            {
+              "id": "s2_describing_2",
+              "version": 1
+            },
+            {
+              "id": "s2_time",
+              "version": 1
+            },
+            {
+              "id": "s2_places",
+              "version": 1
+            },
+            {
+              "id": "s2_follow_me",
+              "version": 1
+            },
+            {
+              "id": "s2_transport",
+              "version": 1
+            },
+            {
+              "id": "s2_feelings",
+              "version": 1
+            },
+            {
+              "id": "s2_play",
+              "version": 1
+            },
+            {
+              "id": "s2_things",
+              "version": 1
+            },
+            {
+              "id": "s2_measure",
+              "version": 1
+            },
+            {
+              "id": "s2_particles",
+              "version": 1
+            },
+            {
+              "id": "s2_linking_1",
+              "version": 1
+            },
+            {
+              "id": "s2_linking_2",
+              "version": 1
+            },
+            {
+              "id": "s2_work",
+              "version": 1
+            },
+            {
+              "id": "s2_society",
+              "version": 1
+            },
+            {
+              "id": "s2_expressions",
+              "version": 1
+            },
+            {
+              "id": "s2_sentences_a1",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "l3",
+          "title": "L3 · Adventurer",
+          "packs": [
+            {
+              "id": "s3_people",
+              "version": 1
+            },
+            {
+              "id": "s3_family",
+              "version": 1
+            },
+            {
+              "id": "s3_food",
+              "version": 1
+            },
+            {
+              "id": "s3_body",
+              "version": 1
+            },
+            {
+              "id": "s3_animals",
+              "version": 1
+            },
+            {
+              "id": "s3_home",
+              "version": 1
+            },
+            {
+              "id": "s3_school",
+              "version": 1
+            },
+            {
+              "id": "s3_clothes",
+              "version": 1
+            },
+            {
+              "id": "s3_nature",
+              "version": 1
+            },
+            {
+              "id": "s3_actions_1",
+              "version": 1
+            },
+            {
+              "id": "s3_actions_2",
+              "version": 1
+            },
+            {
+              "id": "s3_describing",
+              "version": 1
+            },
+            {
+              "id": "s3_time",
+              "version": 1
+            },
+            {
+              "id": "s3_places",
+              "version": 1
+            },
+            {
+              "id": "s3_shopping",
+              "version": 1
+            },
+            {
+              "id": "s3_feelings",
+              "version": 1
+            },
+            {
+              "id": "s3_play",
+              "version": 1
+            },
+            {
+              "id": "s3_things",
+              "version": 1
+            },
+            {
+              "id": "s3_talking",
+              "version": 1
+            },
+            {
+              "id": "s3_linking",
+              "version": 1
+            },
+            {
+              "id": "s3_work",
+              "version": 1
+            },
+            {
+              "id": "s3_society",
+              "version": 1
+            },
+            {
+              "id": "s3_expressions",
+              "version": 1
+            },
+            {
+              "id": "s3_sentences_a2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "l4",
+          "title": "L4 · Confident",
+          "packs": [
+            {
+              "id": "s4_family",
+              "version": 1
+            },
+            {
+              "id": "s4_food_1",
+              "version": 1
+            },
+            {
+              "id": "s4_food_2",
+              "version": 1
+            },
+            {
+              "id": "s4_body",
+              "version": 1
+            },
+            {
+              "id": "s4_home",
+              "version": 1
+            },
+            {
+              "id": "s4_school",
+              "version": 1
+            },
+            {
+              "id": "s4_nature",
+              "version": 1
+            },
+            {
+              "id": "s4_actions_1",
+              "version": 1
+            },
+            {
+              "id": "s4_actions_2",
+              "version": 1
+            },
+            {
+              "id": "s4_describing",
+              "version": 1
+            },
+            {
+              "id": "s4_places",
+              "version": 1
+            },
+            {
+              "id": "s4_transport",
+              "version": 1
+            },
+            {
+              "id": "s4_shopping",
+              "version": 1
+            },
+            {
+              "id": "s4_feelings",
+              "version": 1
+            },
+            {
+              "id": "s4_play",
+              "version": 1
+            },
+            {
+              "id": "s4_things",
+              "version": 1
+            },
+            {
+              "id": "s4_linking",
+              "version": 1
+            },
+            {
+              "id": "s4_work",
+              "version": 1
+            },
+            {
+              "id": "s4_discussion",
+              "version": 1
+            },
+            {
+              "id": "s4_expressions",
+              "version": 1
+            },
+            {
+              "id": "s4_sentences_b1",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "l5",
+          "title": "L5 · Fluent",
+          "packs": [
+            {
+              "id": "s5_body",
+              "version": 1
+            },
+            {
+              "id": "s5_colours",
+              "version": 1
+            },
+            {
+              "id": "s5_school",
+              "version": 1
+            },
+            {
+              "id": "s5_clothes",
+              "version": 1
+            },
+            {
+              "id": "s5_nature",
+              "version": 1
+            },
+            {
+              "id": "s5_actions",
+              "version": 1
+            },
+            {
+              "id": "s5_describing",
+              "version": 1
+            },
+            {
+              "id": "s5_time",
+              "version": 1
+            },
+            {
+              "id": "s5_feelings",
+              "version": 1
+            },
+            {
+              "id": "s5_play",
+              "version": 1
+            },
+            {
+              "id": "s5_things",
+              "version": 1
+            },
+            {
+              "id": "s5_talking",
+              "version": 1
+            },
+            {
+              "id": "s5_linking",
+              "version": 1
+            },
+            {
+              "id": "s5_work",
+              "version": 1
+            },
+            {
+              "id": "s5_society",
+              "version": 1
+            },
+            {
+              "id": "s5_discussion",
+              "version": 1
+            },
+            {
+              "id": "s5_expressions",
+              "version": 1
+            },
+            {
+              "id": "s5_sentences_b2",
+              "version": 1
+            },
+            {
+              "id": "s5_sentences_c1",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kids_v2",
+      "version": 1,
+      "title": "Kids order (experiment)",
+      "description": "Same packs as Classic. Starter reordered so each pack mostly uses words from earlier packs.",
+      "status": "draft",
+      "audience": "kids",
+      "levels": [
+        {
+          "id": "l1",
+          "title": "L1 · Starter",
+          "packs": [
+            {
+              "id": "s1_hello",
+              "version": 1
+            },
+            {
+              "id": "s1_me_you",
+              "version": 1
+            },
+            {
+              "id": "s1_yes_no",
+              "version": 1
+            },
+            {
+              "id": "s1_this_that",
+              "version": 1
+            },
+            {
+              "id": "pack_numbers",
+              "version": 1
+            },
+            {
+              "id": "s1_measure",
+              "version": 1
+            },
+            {
+              "id": "s1_family",
+              "version": 1
+            },
+            {
+              "id": "s1_little",
+              "version": 1
+            },
+            {
+              "id": "s1_actions",
+              "version": 1
+            },
+            {
+              "id": "s1_food",
+              "version": 1
+            },
+            {
+              "id": "pack_fruit",
+              "version": 1
+            },
+            {
+              "id": "s1_describing",
+              "version": 1
+            },
+            {
+              "id": "s1_home",
+              "version": 1
+            },
+            {
+              "id": "s1_feelings",
+              "version": 1
+            },
+            {
+              "id": "s1_play",
+              "version": 1
+            },
+            {
+              "id": "s1_school",
+              "version": 1
+            },
+            {
+              "id": "s1_talking",
+              "version": 1
+            },
+            {
+              "id": "pack_time",
+              "version": 1
+            },
+            {
+              "id": "s1_places",
+              "version": 1
+            },
+            {
+              "id": "s1_out",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "l2",
+          "title": "L2 · Explorer",
+          "packs": [
+            {
+              "id": "s2_people",
+              "version": 1
+            },
+            {
+              "id": "s2_questions",
+              "version": 1
+            },
+            {
+              "id": "s2_family",
+              "version": 1
+            },
+            {
+              "id": "s2_food",
+              "version": 1
+            },
+            {
+              "id": "s2_body",
+              "version": 1
+            },
+            {
+              "id": "s2_colours",
+              "version": 1
+            },
+            {
+              "id": "s2_home",
+              "version": 1
+            },
+            {
+              "id": "s2_school",
+              "version": 1
+            },
+            {
+              "id": "s2_nature",
+              "version": 1
+            },
+            {
+              "id": "s2_actions_1",
+              "version": 1
+            },
+            {
+              "id": "s2_actions_2",
+              "version": 1
+            },
+            {
+              "id": "s2_actions_3",
+              "version": 1
+            },
+            {
+              "id": "s2_describing_1",
+              "version": 1
+            },
+            {
+              "id": "s2_describing_2",
+              "version": 1
+            },
+            {
+              "id": "s2_time",
+              "version": 1
+            },
+            {
+              "id": "s2_places",
+              "version": 1
+            },
+            {
+              "id": "s2_follow_me",
+              "version": 1
+            },
+            {
+              "id": "s2_transport",
+              "version": 1
+            },
+            {
+              "id": "s2_feelings",
+              "version": 1
+            },
+            {
+              "id": "s2_play",
+              "version": 1
+            },
+            {
+              "id": "s2_things",
+              "version": 1
+            },
+            {
+              "id": "s2_measure",
+              "version": 1
+            },
+            {
+              "id": "s2_particles",
+              "version": 1
+            },
+            {
+              "id": "s2_linking_1",
+              "version": 1
+            },
+            {
+              "id": "s2_linking_2",
+              "version": 1
+            },
+            {
+              "id": "s2_work",
+              "version": 1
+            },
+            {
+              "id": "s2_society",
+              "version": 1
+            },
+            {
+              "id": "s2_expressions",
+              "version": 1
+            },
+            {
+              "id": "s2_sentences_a1",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "l3",
+          "title": "L3 · Adventurer",
+          "packs": [
+            {
+              "id": "s3_people",
+              "version": 1
+            },
+            {
+              "id": "s3_family",
+              "version": 1
+            },
+            {
+              "id": "s3_food",
+              "version": 1
+            },
+            {
+              "id": "s3_body",
+              "version": 1
+            },
+            {
+              "id": "s3_animals",
+              "version": 1
+            },
+            {
+              "id": "s3_home",
+              "version": 1
+            },
+            {
+              "id": "s3_school",
+              "version": 1
+            },
+            {
+              "id": "s3_clothes",
+              "version": 1
+            },
+            {
+              "id": "s3_nature",
+              "version": 1
+            },
+            {
+              "id": "s3_actions_1",
+              "version": 1
+            },
+            {
+              "id": "s3_actions_2",
+              "version": 1
+            },
+            {
+              "id": "s3_describing",
+              "version": 1
+            },
+            {
+              "id": "s3_time",
+              "version": 1
+            },
+            {
+              "id": "s3_places",
+              "version": 1
+            },
+            {
+              "id": "s3_shopping",
+              "version": 1
+            },
+            {
+              "id": "s3_feelings",
+              "version": 1
+            },
+            {
+              "id": "s3_play",
+              "version": 1
+            },
+            {
+              "id": "s3_things",
+              "version": 1
+            },
+            {
+              "id": "s3_talking",
+              "version": 1
+            },
+            {
+              "id": "s3_linking",
+              "version": 1
+            },
+            {
+              "id": "s3_work",
+              "version": 1
+            },
+            {
+              "id": "s3_society",
+              "version": 1
+            },
+            {
+              "id": "s3_expressions",
+              "version": 1
+            },
+            {
+              "id": "s3_sentences_a2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "l4",
+          "title": "L4 · Confident",
+          "packs": [
+            {
+              "id": "s4_family",
+              "version": 1
+            },
+            {
+              "id": "s4_food_1",
+              "version": 1
+            },
+            {
+              "id": "s4_food_2",
+              "version": 1
+            },
+            {
+              "id": "s4_body",
+              "version": 1
+            },
+            {
+              "id": "s4_home",
+              "version": 1
+            },
+            {
+              "id": "s4_school",
+              "version": 1
+            },
+            {
+              "id": "s4_nature",
+              "version": 1
+            },
+            {
+              "id": "s4_actions_1",
+              "version": 1
+            },
+            {
+              "id": "s4_actions_2",
+              "version": 1
+            },
+            {
+              "id": "s4_describing",
+              "version": 1
+            },
+            {
+              "id": "s4_places",
+              "version": 1
+            },
+            {
+              "id": "s4_transport",
+              "version": 1
+            },
+            {
+              "id": "s4_shopping",
+              "version": 1
+            },
+            {
+              "id": "s4_feelings",
+              "version": 1
+            },
+            {
+              "id": "s4_play",
+              "version": 1
+            },
+            {
+              "id": "s4_things",
+              "version": 1
+            },
+            {
+              "id": "s4_linking",
+              "version": 1
+            },
+            {
+              "id": "s4_work",
+              "version": 1
+            },
+            {
+              "id": "s4_discussion",
+              "version": 1
+            },
+            {
+              "id": "s4_expressions",
+              "version": 1
+            },
+            {
+              "id": "s4_sentences_b1",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "l5",
+          "title": "L5 · Fluent",
+          "packs": [
+            {
+              "id": "s5_body",
+              "version": 1
+            },
+            {
+              "id": "s5_colours",
+              "version": 1
+            },
+            {
+              "id": "s5_school",
+              "version": 1
+            },
+            {
+              "id": "s5_clothes",
+              "version": 1
+            },
+            {
+              "id": "s5_nature",
+              "version": 1
+            },
+            {
+              "id": "s5_actions",
+              "version": 1
+            },
+            {
+              "id": "s5_describing",
+              "version": 1
+            },
+            {
+              "id": "s5_time",
+              "version": 1
+            },
+            {
+              "id": "s5_feelings",
+              "version": 1
+            },
+            {
+              "id": "s5_play",
+              "version": 1
+            },
+            {
+              "id": "s5_things",
+              "version": 1
+            },
+            {
+              "id": "s5_talking",
+              "version": 1
+            },
+            {
+              "id": "s5_linking",
+              "version": 1
+            },
+            {
+              "id": "s5_work",
+              "version": 1
+            },
+            {
+              "id": "s5_society",
+              "version": 1
+            },
+            {
+              "id": "s5_discussion",
+              "version": 1
+            },
+            {
+              "id": "s5_expressions",
+              "version": 1
+            },
+            {
+              "id": "s5_sentences_b2",
+              "version": 1
+            },
+            {
+              "id": "s5_sentences_c1",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adults_v1",
+      "version": 1,
+      "title": "Adult learners (experiment)",
+      "description": "Everyday Cantonese first: greetings, numbers, money, food, directions and time. Grammar particles come early; kid topics like school and play move to the end of each stage.",
+      "status": "draft",
+      "audience": "adults",
+      "levels": [
+        {
+          "id": "a1",
+          "title": "A1 · Survival",
+          "packs": [
+            {
+              "id": "s1_hello",
+              "version": 1
+            },
+            {
+              "id": "s1_yes_no",
+              "version": 1
+            },
+            {
+              "id": "s1_me_you",
+              "version": 1
+            },
+            {
+              "id": "s1_little",
+              "version": 1
+            },
+            {
+              "id": "pack_numbers",
+              "version": 1
+            },
+            {
+              "id": "s1_places",
+              "version": 1
+            },
+            {
+              "id": "s2_follow_me",
+              "version": 1
+            },
+            {
+              "id": "s1_measure",
+              "version": 1
+            },
+            {
+              "id": "s1_this_that",
+              "version": 1
+            },
+            {
+              "id": "s2_particles",
+              "version": 1
+            },
+            {
+              "id": "s1_out",
+              "version": 1
+            },
+            {
+              "id": "pack_time",
+              "version": 1
+            },
+            {
+              "id": "s1_feelings",
+              "version": 1
+            },
+            {
+              "id": "s1_food",
+              "version": 1
+            },
+            {
+              "id": "s1_talking",
+              "version": 1
+            },
+            {
+              "id": "s1_family",
+              "version": 1
+            },
+            {
+              "id": "s1_home",
+              "version": 1
+            },
+            {
+              "id": "s1_actions",
+              "version": 1
+            },
+            {
+              "id": "s1_describing",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "a2",
+          "title": "A1+ · Everyday life",
+          "packs": [
+            {
+              "id": "s2_questions",
+              "version": 1
+            },
+            {
+              "id": "s2_food",
+              "version": 1
+            },
+            {
+              "id": "s2_linking_1",
+              "version": 1
+            },
+            {
+              "id": "s2_people",
+              "version": 1
+            },
+            {
+              "id": "s2_time",
+              "version": 1
+            },
+            {
+              "id": "s2_actions_1",
+              "version": 1
+            },
+            {
+              "id": "s2_places",
+              "version": 1
+            },
+            {
+              "id": "s2_describing_1",
+              "version": 1
+            },
+            {
+              "id": "s2_actions_2",
+              "version": 1
+            },
+            {
+              "id": "s2_transport",
+              "version": 1
+            },
+            {
+              "id": "s2_work",
+              "version": 1
+            },
+            {
+              "id": "s2_body",
+              "version": 1
+            },
+            {
+              "id": "s2_describing_2",
+              "version": 1
+            },
+            {
+              "id": "s2_family",
+              "version": 1
+            },
+            {
+              "id": "s2_home",
+              "version": 1
+            },
+            {
+              "id": "s2_measure",
+              "version": 1
+            },
+            {
+              "id": "s2_things",
+              "version": 1
+            },
+            {
+              "id": "s2_feelings",
+              "version": 1
+            },
+            {
+              "id": "s2_expressions",
+              "version": 1
+            },
+            {
+              "id": "s1_school",
+              "version": 1
+            },
+            {
+              "id": "s2_linking_2",
+              "version": 1
+            },
+            {
+              "id": "s2_nature",
+              "version": 1
+            },
+            {
+              "id": "s2_society",
+              "version": 1
+            },
+            {
+              "id": "s2_colours",
+              "version": 1
+            },
+            {
+              "id": "s2_actions_3",
+              "version": 1
+            },
+            {
+              "id": "pack_fruit",
+              "version": 1
+            },
+            {
+              "id": "s1_play",
+              "version": 1
+            },
+            {
+              "id": "s2_school",
+              "version": 1
+            },
+            {
+              "id": "s2_play",
+              "version": 1
+            },
+            {
+              "id": "s2_sentences_a1",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "b0",
+          "title": "A2 · Getting by",
+          "packs": [
+            {
+              "id": "s3_shopping",
+              "version": 1
+            },
+            {
+              "id": "s3_work",
+              "version": 1
+            },
+            {
+              "id": "s3_talking",
+              "version": 1
+            },
+            {
+              "id": "s3_food",
+              "version": 1
+            },
+            {
+              "id": "s3_expressions",
+              "version": 1
+            },
+            {
+              "id": "s3_places",
+              "version": 1
+            },
+            {
+              "id": "s3_actions_1",
+              "version": 1
+            },
+            {
+              "id": "s3_body",
+              "version": 1
+            },
+            {
+              "id": "s3_people",
+              "version": 1
+            },
+            {
+              "id": "s3_family",
+              "version": 1
+            },
+            {
+              "id": "s3_time",
+              "version": 1
+            },
+            {
+              "id": "s3_describing",
+              "version": 1
+            },
+            {
+              "id": "s3_feelings",
+              "version": 1
+            },
+            {
+              "id": "s3_society",
+              "version": 1
+            },
+            {
+              "id": "s3_things",
+              "version": 1
+            },
+            {
+              "id": "s3_actions_2",
+              "version": 1
+            },
+            {
+              "id": "s3_home",
+              "version": 1
+            },
+            {
+              "id": "s3_play",
+              "version": 1
+            },
+            {
+              "id": "s3_linking",
+              "version": 1
+            },
+            {
+              "id": "s3_clothes",
+              "version": 1
+            },
+            {
+              "id": "s3_school",
+              "version": 1
+            },
+            {
+              "id": "s3_nature",
+              "version": 1
+            },
+            {
+              "id": "s3_animals",
+              "version": 1
+            },
+            {
+              "id": "s3_sentences_a2",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "b1",
+          "title": "B1 · Independent",
+          "packs": [
+            {
+              "id": "s4_body",
+              "version": 1
+            },
+            {
+              "id": "s4_discussion",
+              "version": 1
+            },
+            {
+              "id": "s4_transport",
+              "version": 1
+            },
+            {
+              "id": "s4_shopping",
+              "version": 1
+            },
+            {
+              "id": "s4_food_1",
+              "version": 1
+            },
+            {
+              "id": "s4_food_2",
+              "version": 1
+            },
+            {
+              "id": "s4_work",
+              "version": 1
+            },
+            {
+              "id": "s4_home",
+              "version": 1
+            },
+            {
+              "id": "s4_describing",
+              "version": 1
+            },
+            {
+              "id": "s4_places",
+              "version": 1
+            },
+            {
+              "id": "s4_expressions",
+              "version": 1
+            },
+            {
+              "id": "s4_family",
+              "version": 1
+            },
+            {
+              "id": "s4_feelings",
+              "version": 1
+            },
+            {
+              "id": "s4_things",
+              "version": 1
+            },
+            {
+              "id": "s4_actions_1",
+              "version": 1
+            },
+            {
+              "id": "s4_actions_2",
+              "version": 1
+            },
+            {
+              "id": "s4_linking",
+              "version": 1
+            },
+            {
+              "id": "s4_nature",
+              "version": 1
+            },
+            {
+              "id": "s4_school",
+              "version": 1
+            },
+            {
+              "id": "s4_play",
+              "version": 1
+            },
+            {
+              "id": "s4_sentences_b1",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "title": "B2–C1 · Fluent",
+          "packs": [
+            {
+              "id": "s5_discussion",
+              "version": 1
+            },
+            {
+              "id": "s5_work",
+              "version": 1
+            },
+            {
+              "id": "s5_talking",
+              "version": 1
+            },
+            {
+              "id": "s5_society",
+              "version": 1
+            },
+            {
+              "id": "s5_body",
+              "version": 1
+            },
+            {
+              "id": "s5_time",
+              "version": 1
+            },
+            {
+              "id": "s5_feelings",
+              "version": 1
+            },
+            {
+              "id": "s5_expressions",
+              "version": 1
+            },
+            {
+              "id": "s5_actions",
+              "version": 1
+            },
+            {
+              "id": "s5_describing",
+              "version": 1
+            },
+            {
+              "id": "s5_things",
+              "version": 1
+            },
+            {
+              "id": "s5_linking",
+              "version": 1
+            },
+            {
+              "id": "s5_clothes",
+              "version": 1
+            },
+            {
+              "id": "s5_nature",
+              "version": 1
+            },
+            {
+              "id": "s5_colours",
+              "version": 1
+            },
+            {
+              "id": "s5_school",
+              "version": 1
+            },
+            {
+              "id": "s5_play",
+              "version": 1
+            },
+            {
+              "id": "s5_sentences_b2",
+              "version": 1
+            },
+            {
+              "id": "s5_sentences_c1",
+              "version": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
